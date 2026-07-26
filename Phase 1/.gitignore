@@ -1,0 +1,13 @@
+# Ignore local text and state documents
+*.txt
+
+# Python & Environment exclusions (for later milestones)
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db

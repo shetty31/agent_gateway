@@ -1,0 +1,36 @@
+## AgentGuard: Project State & Architecture Decision Records (ADR)
+
+### 1. Foundational Context
+* **Project Objective:** Build an IC6-level micro-emulator of an Enterprise AI Gateway and Scientific Data Pipeline. Features include FinOps rate-limiting, Virtual VRAM dynamic batching, an Event-Driven Data Lakehouse, NoSQL contextualization, and an MCP interoperability adapter.
+* **TPO Background (Interview Context):** 10 years in MedTech (Systems Engineering, Supplier Quality), 3 years as RPA Product Owner (Power Platform/UiPath, Azure).
+* **Strategic Pivot:** Transitioning to a Data/Cloud/AI Staff Technical Product Owner (IC6) role. Focus is on internal platform adoption, FinOps governance, hardware reliability, and FAIR-compliant strict data provenance.
+
+### 2. Current Execution State
+* **Active Phase:** Phase 2 - Autonomous Edge, Governance & Hardware Reliability.
+* **Active Milestone:** Milestone 3 - FastAPI Gateway, FinOps Circuit Breaker & Soft Validation.
+* **Overall Status:** Phase 1 (Milestones 1 & 2) Complete. Schema contracts and FinOps policies are locked. Preparing for localized code execution.
+
+### 3. Executive Summaries & Constraints
+* **Product Strategy (PRD):** * **GTM & Adoption:** Positioned as a frictionless, secure paved road for internal AI onboarding. Enforces unbreakable scientific data provenance via metadata injection and programmatic interoperability via an MCP adapter.
+    * **FinOps Chargeback Model:** Acts as a strict FinOps Circuit Breaker using token-based budgeting and dynamic chargeback tracking via a local high-speed counter. Ensures zero-waste compute.
+* **Security & Threat Model:** * **Edge Proxy Boundaries:** Governs all incoming traffic at the perimeter based on strict security, cost, and data quality rules.
+    * **Hard Drops:** 403/429 HTTP rejections executed instantly at the edge for missing API keys or budget breaches (Unauthorized Access & Cloud Exhaustion vectors).
+    * **Soft Validation:** Payloads with scientific anomalies or malformed data bypass the drop, get appended with a metadata "warning" tag, and route to a `/quarantine/` folder to preserve raw observations.
+* **Data & Schema Contracts:** * **Payload Schema:** Strict JSON typing required. Payloads must contain `agent_id`, `auth_key`, `payload_type`, and a nested `scientific_observation` (temperature, pressure). No additional properties allowed (prevents payload injection).
+    * **FinOps Limits:** Strict departmental limit of 100 tokens per minute. Token weights map directly to payload type (standard_ping = 1, scientific_analysis = 5).
+
+### 4. Architecture Decision Records (ADR) Log
+
+**ADR 001: Project Initiation & System Security Boundaries**
+* **Date:** 2026-07-25
+* **Context:** Before writing any localized code, the system required strict definition of its security perimeter, financial constraints, and data quality rules to prevent uncontrolled API ingestion and subsequent hardware exhaustion.
+* **Decision:** Established a rigid separation of concerns at the edge proxy layer. Implemented the architectural rule separating "Hard Drops" from "Soft Validations". Initialized a strict `.gitignore` to block state drift from local text files.
+* **Consequences:** Ensures zero compute or storage is wasted on unauthorized requests. Guarantees 100% retention of raw scientific observations.
+* **IC6 / Enterprise Tie-in:** Mirrors enterprise API Gateway security paradigms and cloud FinOps circuit breakers, mapping directly to MedTech's zero-tolerance requirements for data loss.
+
+**ADR 002: Enterprise Abstraction Mapping & Schema Contracts**
+* **Date:** 2026-07-26
+* **Context:** The gateway required explicit validation rules and a mapped cloud architecture to ensure the local simulation accurately reflects an enterprise production environment.
+* **Decision:** Established strict JSON schema contracts with typed fields (`inbound_schema.json`) and configured a FinOps policy (`policy_config.yaml`) defining a 100-token/min limit. Mapped local tools (FastAPI, Redis, asyncio, watchdog) directly to enterprise cloud equivalents (API Gateway, ElastiCache, Kafka, S3 Events).
+* **Consequences:** The gateway now possesses the explicit rules engine required to execute Hard Drops and Quarantine logic autonomously.
+* **IC6 / Enterprise Tie-in:** Mirrors enterprise schema registries and strict departmental API quotas, actively preventing polymorphic AI payload injection and cloud billing exhaustion.

@@ -1,0 +1,13 @@
+Once you have successfully completed this task and the tests pass, append a detailed Architecture Decision Record (ADR) to ADR_LOG.md. Your entry must be timestamped and include: 
+1) The exact terminal commands you executed.
+2) Any traceback errors you encountered.
+3) The root cause of those errors.
+4) The exact code modifications you made to fix them.
+
+Before proceeding to Phase 2 code generation, read the following files into your context: README.md, roadmap.md, architecture.md, product_strategy_prd.md, and Project State.txt.
+
+Act as a Principal Systems Architect. Cross-reference these documents and perform a strict state-sync audit.
+
+Identify any contradictory architectural statements (e.g., mismatched component names, conflicting volumetric RPM quotas, or legacy mentions of 'FinOps/AI Agents' instead of 'MedTech IoT'). Flag any execution steps in the README that do not align with the roadmap.
+
+Output a detailed list of discrepancies. Do NOT edit the files directly. Just provide the exact markdown suggestions I need to apply to fix the sync issues.

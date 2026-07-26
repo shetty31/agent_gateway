@@ -1,0 +1,50 @@
+Resume Bullet Points
+Architected "AgentGuard," an enterprise-grade IoT edge governance proxy for decentralized MedTech manufacturing, implementing strict Request-Per-Minute (RPM) volumetric circuit breakers to protect central cloud infrastructure from hyperactive hardware failures (internal DDoS).
+
+Engineered strict policy-as-code schema contracts to detect physical data drift, establishing a qualitative routing engine that automatically quarantines anomalous scientific observations (e.g., broken sensors) to guarantee the truth integrity of the central data lakehouse.
+
+Established a highly resilient, event-driven Medallion data pipeline featuring asynchronous Virtual VRAM backpressure buffers to prevent storage I/O exhaustion, ultimately exposing the harmonized NoSQL Silver layer via an MCP adapter to enable FAIR-compliant programmatic BI querying.
+
+🧠 Your Finalized IC6 Mental Model
+To ensure you can speak to this fluidly without memorizing a script, here is your updated, multi-layered mental model. Commit this to memory:
+
+1. The Enterprise Problem (The "Why")
+
+"Dumb" IoT sensors break. When they do, they either spam the network (crashing cloud servers) or send biologically impossible data (ruining FDA compliance).
+
+2. The Edge Architecture (The Bouncer & The Waiting Room)
+
+The Bouncer (FastAPI + Redis): Intercepts traffic at the extreme edge, before it hits the cloud.
+
+The Waiting Room (VRAM Buffer): Absorbs legitimate but massive concurrent traffic spikes (like an end-of-shift upload) to prevent storage I/O disk locks.
+
+3. The Two Hardware Threat Vectors (The "How It Works")
+
+Threat A: The Hyperactive Firmware Crash
+
+Mechanic: Sensor gets stuck in a loop, firing 1,000 times a second.
+
+Defense: Volumetric RPM Quota. Redis sees the spike, triggers a 429 Hard Drop, and saves the cloud compute budget.
+
+Threat B: The Snapped Physical Probe (Data Drift)
+
+Mechanic: Sensor fires at normal speed, but the physical thermometer is broken and reports 9999°C.
+
+Defense: Qualitative Schema Validation. Payload passes Redis but fails the strict FastAPI schema limits. It is soft-routed to /quarantine/ so it doesn't poison the clean data lake.
+
+4. The Value Delivery (The Actionable KPIs)
+
+The BI script queries the metadata. A spike in 429 Drops means IT needs to remotely reboot a sensor. A spike in Quarantine Volume means a physical mechanic needs to go onto the factory floor with a wrench to replace a snapped probe.
+
+🎙️ The Revised IC6 Interview Pitch (Business & KPI Focused)
+The Hook
+
+"I built AgentGuard, an edge governance platform for MedTech IoT environments. I designed it to solve two massive operational risks in decentralized manufacturing: broken factory sensors inadvertently DDoSing our expensive cloud infrastructure, and anomalous hardware readings poisoning our central scientific data lake."
+
+The Mechanics (Simplified)
+
+"Instead of trusting physical equipment to upload data directly, I architected an interception proxy at the edge. It acts as an intelligent circuit breaker. It enforces strict volumetric quotas to instantly drop traffic from hyperactive, looping sensors, and uses schema contracts to quarantine malformed data—like a broken thermometer reporting impossible temperatures. To prevent storage crashes during massive shift-change uploads, surviving data passes through an asynchronous memory buffer before triggering an event-driven ETL."
+
+The Business Impact & KPIs
+
+"The entire pipeline is observable via a programmatic BI dashboard tracking two critical KPIs: Volumetric Rejection Rate (which instantly flags internal DDoS threats) and Qualitative Data Drift (which identifies exact factories needing physical sensor maintenance). Ultimately, this platform guarantees 100% clean data provenance for FDA compliance, prevents runaway cloud compute bills, and is fully accessible to external AI agents via an MCP adapter."

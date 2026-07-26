@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AgentGuard Inbound IoT Telemetry",
+  "description": "Strict validation contract for decentralized MedTech bioreactor sensors.",
+  "type": "object",
+  "properties": {
+    "agent_key": {
+      "type": "string",
+      "description": "Required for Edge Proxy Authentication to prevent 403 Hard Drops."
+    },
+    "equipment_id": {
+      "type": "string",
+      "description": "Unique identifier for Volumetric RPM tracking in the Redis-mock."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of the hardware observation."
+    },
+    "critical_alert": {
+      "type": "boolean",
+      "description": "Life-safety hardware flag. If true, bypasses the 429 RPM volumetric quota."
+    },
+    "telemetry": {
+      "type": "object",
+      "properties": {
+        "temperature_c": {
+          "type": "number",
+          "description": "Biological temperature. Out-of-bounds values (e.g., 9999) trigger Quarantine."
+        },
+        "bioreactor_rpm": {
+          "type": "integer",
+          "description": "Mechanical rotation speed of the synthesis equipment."
+        },
+        "sensor_status": {
+          "type": "string",
+          "enum": ["OK", "DEGRADED", "ERROR"],
+          "description": "Hardware diagnostic state."
+        }
+      },
+      "required": ["temperature_c", "bioreactor_rpm", "sensor_status"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["agent_key", "equipment_id", "timestamp", "critical_alert", "telemetry"],
+  "additionalProperties": false
+}
