@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "AgentGuard Inbound IoT Telemetry",
-  "description": "Strict validation contract for decentralized MedTech bioreactor sensors.",
+  "description": "Strict structural validation contract for decentralized MedTech bioreactor sensors.",
   "type": "object",
   "properties": {
     "agent_key": {
@@ -26,7 +26,7 @@
       "properties": {
         "temperature_c": {
           "type": "number",
-          "description": "Biological temperature. Out-of-bounds values (e.g., 9999) trigger Quarantine."
+          "description": "Biological temperature. Structural failure (e.g., passing a string instead of a float) triggers a 422 Quarantine."
         },
         "bioreactor_rpm": {
           "type": "integer",

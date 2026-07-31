@@ -1,0 +1,21 @@
+# AgentGuard: IoT Edge Gateway Security Policy (gateway_policy.yml)
+
+# Tier 1: Security (Authentication & Routing)
+authentication:
+  require_valid_agent_key: true
+  unauthorized_action: "HARD_DROP_403"
+  enforce_ip_whitelist: true                  # Added per Milestone 2 architecture
+  approved_ips:
+    - "192.168.1.100"                         # Factory Subnet A
+    - "10.0.0.5"                              # Factory Subnet B
+
+# Tier 2: Reliability (Circuit Breaking & DDoS Prevention)
+volumetric_policy:
+  max_requests_per_minute: 60                 # Expected baseline is ~10 RPM. 60 catches hyperactive loops.
+  enforcement_action: "HARD_DROP_429"
+  critical_alert_bypass: true                 # Life-safety hardware alerts bypass the RPM limit
+
+# Tier 3: Integrity (Schema Contracts & Data Truth)
+structural_policy:                            # UPDATED: Replaced 'qualitative_policy'
+  strict_pydantic_validation: true
+  failure_action: "QUARANTINE_422"            # Fails malformed JSON (422) and routes to Hive-partitioned disk
