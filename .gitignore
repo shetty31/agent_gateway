@@ -1,13 +1,29 @@
 # Ignore local text and state documents
 *.txt
 
-# Python & Environment exclusions (for later milestones)
+# Python & Environment Exclusions
 __pycache__/
 *.py[cod]
+*$py.class
 .env
 venv/
 env/
 
-# OS generated files
+# Testing & Tooling (For White-Box AI Agent execution)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# AgentGuard Runtime Data & Storage Directories
+# (Prevents simulated IoT payloads and ETL databases from polluting version control)
+/quarantine/
+/approved/
+/agentguard_data/
+
+# Observability & Logging
+*.log
+telemetry.log
+
+# OS Generated Files
 .DS_Store
 Thumbs.db
