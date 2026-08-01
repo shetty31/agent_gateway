@@ -12,7 +12,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, ValidationError
 
-from redis_mock import RedisMock
+from src.redis_mock import RedisMock
 
 
 ALLOWED_AGENT_KEYS = {"demo-agent-key"}
