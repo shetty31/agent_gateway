@@ -20,7 +20,7 @@ To simulate an enterprise environment and maintain a pristine Git timeline, deve
 * **Deliverables:**
 * `README.md` (Project overview and core IoT use cases).
 * `product_strategy_prd.md` (Executive GTM, RPM quota strategy, & platform SLOs).
-* Initialized Git workspace, `.gitignore`, Python Virtual Environment (`venv`), and `dependency.md` (Step Zero).
+* Initialized Git workspace, `.gitignore`, Python Virtual Environment (`venv`), and `dependency.txt` (Step Zero).
 
 
 
