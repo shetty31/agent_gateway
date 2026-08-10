@@ -15,6 +15,7 @@ from pydantic import BaseModel, ValidationError
 from src.redis_mock import RedisMock
 
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ALLOWED_AGENT_KEYS = {"demo-agent-key"}
 ALLOWED_IPS = {"127.0.0.1", "::1", "localhost"}
 
@@ -57,7 +58,7 @@ async def telemetry_middleware(request: Request, call_next):
             "latency_ms": latency_ms,
             "client_ip": client_ip,
         }
-        telemetry_path = Path(__file__).resolve().parent / "telemetry.log"
+        telemetry_path = PROJECT_ROOT / "logs" / "telemetry.log"
         telemetry_path.parent.mkdir(parents=True, exist_ok=True)
         with telemetry_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(telemetry_entry, sort_keys=True) + "\n")
@@ -98,14 +99,8 @@ async def _read_request_payload(request: Request) -> Any:
 
 def _write_quarantine_payload(payload: Any) -> None:
     now = datetime.utcnow()
-    partition_dir = Path("/quarantine/structural") / f"year={now.year}" / f"month={now.month:02d}" / f"day={now.day:02d}"
-
-    try:
-        partition_dir.mkdir(parents=True, exist_ok=True)
-    except OSError:
-        fallback_dir = Path(__file__).resolve().parent / "quarantine" / "structural" / f"year={now.year}" / f"month={now.month:02d}" / f"day={now.day:02d}"
-        fallback_dir.mkdir(parents=True, exist_ok=True)
-        partition_dir = fallback_dir
+    partition_dir = PROJECT_ROOT / "data" / "quarantine" / "structural" / f"year={now.year}" / f"month={now.month:02d}" / f"day={now.day:02d}"
+    partition_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = partition_dir / f"{now.strftime('%H%M%S%f')}.json"
     file_path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")

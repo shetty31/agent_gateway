@@ -1,54 +1,74 @@
-# AgentGuard: Product Requirements & IoT Governance Strategy
+# AgentGuard: Enterprise Edge Governance & IoT Data Strategy
 
-## 1. The Executive Summary & Business Problem
 
-As enterprise MedTech manufacturing networks scale (e.g., decentralized bioreactors producing synthetic insulin), legacy infrastructure faces a critical vulnerability: **"Shadow IoT Ingestion."** Without a centralized edge governance layer, thousands of physical factory sensors write directly to central scientific data lakes. This creates three critical business risks:
+## 1. Executive Summary & Business Problem
 
-* **Infrastructure DDoS (Hyperactive Sensors):** If a bioreactor's firmware crashes and gets stuck in a retry loop, it can fire 5,000 payloads per second, triggering expensive downstream cloud ETL pipelines and DDoSing the central data lake.
-* **Pipeline Poisoning (Malformed Telemetry):** If a physical sensor's payload builder corrupts, it may transmit structurally broken JSON (e.g., sending text strings instead of floats, or missing critical fields). Without strict edge validation, this anomalous data crashes downstream database ingestion jobs.
-* **Storage I/O Exhaustion:** Concurrent end-of-shift factory data uploads overwhelm cloud storage I/O, causing disk locks and dropping critical compliance data.
+As enterprise MedTech manufacturing networks scale—specifically decentralized bioreactors producing synthetic insulin—our legacy infrastructure faces a critical vulnerability: **"Shadow IoT Ingestion"**. Currently, thousands of physical factory sensors write directly to central scientific data lakes without a centralized edge governance layer.
 
-## 2. The Product Solution
+This lack of an "air-traffic control tower" creates three unmitigated enterprise risks:
 
-AgentGuard is positioned as a frictionless, highly regulated "air-traffic control tower" for MedTech IoT data ingestion. It acts as an intelligent edge proxy sitting between the factory floor and the enterprise data lakehouse.
+* **Infrastructure DDoS (Hyperactive Sensors):** If a bioreactor's firmware crashes into a retry loop, it can fire 5,000 payloads per second, DDoSing the central data lake and triggering wildly expensive downstream cloud ETL pipelines.
+* **Pipeline Poisoning (Malformed Telemetry):** Corrupted payload builders transmit structurally broken JSON, crashing downstream database ingestion jobs.
+* **Storage I/O Exhaustion:** Concurrent end-of-shift factory uploads overwhelm cloud storage I/O, causing disk locks and dropping critical FDA compliance data.
 
-Instead of trusting the hardware endpoint, AgentGuard provides programmatic safety via Observability-Driven Development. It authenticates physical equipment, enforces strict Requests-Per-Minute (RPM) volumetric quotas to prevent DDoS, validates structural Pydantic schemas to catch broken payloads, buffers hardware traffic spikes in volatile RAM, and dynamically flushes clean data via cloud-ready Hive Partitioning.
+## 2. Architectural Tenets (Guiding Principles)
 
----
+*Unless explicitly challenged and approved, all engineering decisions for AgentGuard must adhere to these tenets:*
 
-## 3. Threat Model & Governance Boundaries
+1. **Fail-Fast at the Edge:** We drop bad traffic as close to the physical hardware as possible. Cloud compute is expensive; edge rejection is cheap.
+2. **Schema-on-Write over Schema-on-Read:** We strictly reject undocumented schema drift at the edge to protect the integrity of downstream AI and BI models.
+3. **Zero Trust Hardware:** We assume all physical MedTech sensors are compromised or broken until authenticated and structurally validated.
 
-To protect the enterprise architecture, AgentGuard enforces strict separation of concerns at the edge proxy layer (The 3-Tier Edge Defense), catching physical hardware failures before data ever touches the cloud.
+## 3. Explicit Non-Goals (Out of Scope)
+
+*To prevent scope creep, AgentGuard will **not** do the following:*
+
+* **Hardware Remediation:** AgentGuard will quarantine bad data, but it will not attempt to push over-the-air (OTA) firmware updates to fix broken bioreactors.
+* **Long-Term Archival:** AgentGuard is an ingestion and transformation pipeline, not a cold-storage archival database.
+
+## 4. The Product Solution & Threat Model
+
+AgentGuard is positioned as a frictionless, highly regulated edge proxy sitting between the factory floor and the enterprise data lakehouse. It provides programmatic safety via Observability-Driven Development, governed by a strict **3-Tier Edge Defense**:
 
 | Hardware Failure Vector | Governance Boundary | System Action |
 | --- | --- | --- |
-| **Unauthorized Access** (Unregistered Equipment) | Edge Proxy Authentication | **Hard Drop (403):** Connection terminated instantly. |
-| **Hyperactive Firmware Loop** (Internal DDoS) | Volumetric RPM Quota | **Hard Drop (429):** Connection terminated instantly at the edge. Protects cloud ETL compute from runaway sensor traffic. |
-| **Malformed Telemetry** (Schema Contract Breach) | Pydantic Schema Contracts | **Quarantine (422):** Payload fails structural validation and is diverted directly to local disk at `/quarantine/structural/year=YYYY/month=MM/day=DD/` to preserve raw observations for physical engineering review without poisoning the clean lakehouse. |
-| **Storage I/O Crash** (Concurrent traffic spike) | Virtual VRAM Dynamic Batching | **Queue & Flush:** `200 OK` traffic absorbed in volatile RAM and flushed to disk dynamically via Hive Partitioning based on strict volume or temporal thresholds. |
+| **Unauthorized Access** | Edge Proxy Authentication | **Hard Drop (403):** Connection terminated instantly. |
+| **Hyperactive Firmware** | Volumetric RPM Quota | **Hard Drop (429):** Terminated at the edge to protect cloud ETL. |
+| **Schema Contract Breach** | Pydantic Schemas | **Quarantine (422):** Payload diverted directly to local disk (`/quarantine/structural/`) for hardware review, protecting the lakehouse. |
+| **Storage I/O Crash** | Virtual VRAM Batching | **Queue & Flush:** Valid traffic absorbed in RAM and flushed via Hive Partitioning based on volume/time thresholds. |
 
----
+## 5. Platform Value Delivery & Business Impact
 
-## 4. Platform Value Delivery
+AgentGuard delivers immediate, measurable value to two distinct enterprise stakeholders:
 
-AgentGuard serves two distinct enterprise customers, providing both hardware observability and scientific data interoperability.
+### Customer A: The Enterprise Business (Science & Supply Chain)
 
-* **Customer A: The Enterprise Business (The Science & Supply Chain)**
-* **The Goal:** Seamless access to clean, FDA-compliant scientific data.
-* **The Delivery:** Valid observations are transformed into a deeply nested enterprise schema (Data Package, Data Cube, Data Description) in the Silver layer. This is wrapped in an Anthropic Model Context Protocol (MCP) adapter, achieving FAIR (Findable, Accessible, Interoperable, Reusable) data principles for external BI consumption.
-
-
-* **Customer B: The Platform Owner (System Health & Hardware Reliability)**
-* **The Goal:** Real-time visibility into edge hardware failures.
-* **The Delivery:** The API Gateway automatically generates structured JSON telemetry logs. A programmatic NoSQL BI script queries this metadata to output System Health KPIs, instantly identifying specific physical factories that require hardware repair based on 422 Quarantine Rates and 429 Quota Breaches.
+* **The Business Reality:** Producing synthetic insulin requires absolute environmental perfection. A minor fluctuation (e.g., temperature spiking to 40.0°C) permanently denatures the proteins, ruining a multi-million dollar batch.
+* **The AgentGuard Solution:** To support rapid investigation and FDA compliance, AgentGuard transforms raw telemetry into a deeply nested enterprise schema (Data Package) achieving FAIR principles.
+* **The Data Cube:** Separates "Dimensions" (e.g., `equipment_id: bioreactor_alpha_01`) from "Facts" (e.g., `temperature_c: 37.5`), allowing Data Scientists to instantly filter faults without scanning millions of irrelevant records.
+* **Immutable Chain of Custody:** Injects a digital transit manifest proving to FDA auditors that logs were never delayed or tampered with.
+* **MCP Interoperability:** An embedded metrics glossary allows an Anthropic MCP adapter to autonomously query the data, eliminating manual data engineering during emergencies.
 
 
 
----
+### Customer B: The Platform Owner (Engineering)
 
-## 5. Success Metrics & Platform SLOs
+* **The Business Reality:** A single MedTech sensor stuck in a loop can DDoS the network, while malformed payloads crash downstream databases.
+* **The AgentGuard Solution:** Real-time visibility into edge hardware failures.
+* **System Health KPIs:** 422 and 429 metrics instantly identify physical factories requiring emergency hardware repair without digging through raw application logs.
+* **Cloud Budget Protection:** Immediate Hard Drops mathematically guarantee broken hardware cannot exhaust expensive cloud storage I/O or ETL compute.
+
+
+
+## 6. Success Metrics & Platform SLOs
 
 * **Volumetric Protection:** System must execute 429 Hard Drops the exact millisecond a sensor breaches its configured RPM limit.
-* **Data Truth Integrity:** 100% of structurally malformed payloads must be successfully diverted to the Hive-partitioned Quarantine directory with a 422 HTTP status.
-* **System Latency:** Gateway interception, observability logging, quota tracking, and schema validation must execute in **< 50ms overhead** per request.
-* **Data Accessibility:** Harmonized NoSQL data must be fully queryable via the MCP adapter without requiring manual data engineering intervention.
+* **Data Truth Integrity:** 100% of structurally malformed payloads successfully diverted to Quarantine (422).
+* **System Latency:** Gateway interception, quota tracking, and schema validation must execute in **< 50ms overhead** per request.
+* **Data Accessibility:** Harmonized Silver data must be fully queryable via the MCP adapter without human intervention.
+
+## 7. Go-To-Market & Rollout Strategy
+
+* **Phase 1 (Targeted Subnet Pilot):** AgentGuard is deployed to a single localized facility (e.g., Factory Subnet A) with active hard drops (403, 429, 422) and Pydantic schema validation enabled. This validates edge performance, verifies IP whitelists, and ensures zero data loss under live manufacturing conditions.
+* **Phase 2 (Enterprise-Wide Expansion):** Hard Drops and Quarantines are enabled for Factory Subnet A.
+* **Phase 3 (Global Standardization):** AgentGuard becomes the mandatory ingestion gateway for all remaining global bioreactors.
