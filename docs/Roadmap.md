@@ -42,7 +42,7 @@ To simulate an enterprise environment and maintain a pristine Git timeline, deve
 
 **Milestone 3: FastAPI Gateway, RPM Circuit Breaker & Structural Quarantine**
 
-* **Plan:** Build the API interception proxy. Implement a localized high-speed counter (`redis_mock.py`) with concurrency controls (`asyncio.Lock()`). The gateway must execute strict 403 Hard Drops for unauthorized IPs and 429 Hard Drops for hyperactive sensors. Malformed schemas will trigger a 422 error and route directly to a local disk quarantine via Hive partitioning.
+* **Plan:** Build the API interception proxy. Implement a localized high-speed counter (`redis_mock.py`) with concurrency controls (`asyncio.Lock()`). The gateway must execute strict 403 Hard Drops for unauthorized IPs and 429 Hard Drops for hyperactive sensors. Malformed or mismatched schemas trigger a 422 quarantine path and route raw payloads directly to a local disk quarantine via Hive partitioning for review.
 * **Observability Requirement:** FastAPI Middleware must intercept all traffic and output structured JSON logs to `telemetry.log` capturing P95 latency and HTTP status codes.
 * **Deliverables:**
 * `redis_mock.py` (Local RPM rate limiter).

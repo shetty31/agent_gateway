@@ -69,6 +69,6 @@ AgentGuard delivers immediate, measurable value to two distinct enterprise stake
 
 ## 7. Go-To-Market & Rollout Strategy
 
-* **Phase 1 (Targeted Subnet Pilot):** AgentGuard is deployed to a single localized facility (e.g., Factory Subnet A) with active hard drops (403, 429, 422) and Pydantic schema validation enabled. This validates edge performance, verifies IP whitelists, and ensures zero data loss under live manufacturing conditions.
+* **Phase 1 (Targeted Subnet Pilot):** AgentGuard is deployed to a single localized facility (e.g., Factory Subnet A) with active 403/429 hard drops and 422 quarantine validation enabled. This validates edge performance, verifies IP whitelists, and ensures malformed payloads are preserved for review without poisoning the clean lakehouse.
 * **Phase 2 (Enterprise-Wide Expansion):** Hard Drops and Quarantines are enabled for Factory Subnet A.
 * **Phase 3 (Global Standardization):** AgentGuard becomes the mandatory ingestion gateway for all remaining global bioreactors.

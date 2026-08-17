@@ -12,6 +12,7 @@ or directly target a scenario:
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 from typing import Any
@@ -20,7 +21,7 @@ import requests
 
 
 BASE_URL = "http://127.0.0.1:8000/ingest"
-VALID_AGENT_KEY = "demo-agent-key"
+VALID_AGENT_KEY = os.getenv("AGENT_KEY", "demo-agent-key")
 
 
 def print_header(title: str) -> None:

@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "domain": "synthetic_insulin_bi manufacturing",
+  "metrics": {
+    "temperature_c": {
+      "type": "float",
+      "unit": "Celsius",
+      "optimal_range": [36.5, 38.5],
+      "critical_threshold": 39.0,
+      "description": "Biological temperature inside the bioreactor vessel. Exceeding 39.0°C causes irreversible protein denaturing and batch ruin."
+    },
+    "bioreactor_rpm": {
+      "type": "integer",
+      "unit": "RPM",
+      "optimal_range": [150, 350],
+      "critical_threshold_low": 100,
+      "critical_threshold_high": 450,
+      "description": "Mechanical rotation speed of internal impellers providing dissolved oxygen to cellular cultures."
+    },
+    "pressure_psi": {
+      "type": "float",
+      "unit": "PSI",
+      "optimal_range": [5.0, 15.0],
+      "critical_threshold": 2.0,
+      "description": "Vessel positive pressure safeguarding the sterile environment against airborne bio-contamination."
+    },
+    "ph_level": {
+      "type": "float",
+      "unit": "pH",
+      "optimal_range": [6.8, 7.4],
+      "critical_threshold_low": 6.5,
+      "critical_threshold_high": 7.6,
+      "description": "Culture medium acidity/alkalinity balancing cellular metabolism and enzymatic yield."
+    }
+  }
+}

@@ -1,131 +1,126 @@
-# AgentGuard: Enterprise IoT Abstraction Mapping
+# AgentGuard Architecture
 
-## 1. System Overview (MedTech IoT Manufacturing)
+## 1. System purpose
 
-This document maps the localized components of the AgentGuard micro-emulator to their enterprise-grade cloud equivalents. This architecture governs decentralized physical IoT traffic (e.g., synthetic insulin bioreactors), ensuring that broken hardware sensors or hyperactive firmware loops do not DDoS downstream cloud compute, exhaust storage I/O, or crash downstream ETL pipelines with structurally malformed data.
+This repository implements a compact edge-gateway runtime for IoT telemetry. It receives payloads from device or test clients, authenticates them, enforces per-equipment request limits, validates payload structure against the repo schema contract, quarantines malformed data, and flushes approved payloads through a memory buffer to partitioned disk storage.
 
-## 2. Infrastructure Component Mappings
+The runtime is intentionally small and explicit:
 
-# AgentGuard: Enterprise IoT Abstraction Mapping
+- [src/gateway.py](../src/gateway.py) hosts the FastAPI application and request lifecycle
+- [src/redis_mock.py](../src/redis_mock.py) enforces the in-memory RPM gate
+- [src/virtual_vram_batcher.py](../src/virtual_vram_batcher.py) batches approved payloads before disk persistence
+- [config/gateway_policy.yml](../config/gateway_policy.yml) defines the policy posture
+- [config/inbound_schema.json](../config/inbound_schema.json) is the strict payload contract
+- [logs/](../logs/) records middleware telemetry
+- [data/](../data/) stores approved and quarantined output partitions
+- [reports/](../reports/) stores metrics and plots
+- [runs/](../runs/) stores execution snapshots and the latest symlink
 
-## 1. System Overview (MedTech IoT Manufacturing)
+## 2. Runtime responsibilities
 
-This document maps the localized components of the AgentGuard micro-emulator to their enterprise-grade cloud equivalents. This architecture governs decentralized physical IoT traffic (e.g., synthetic insulin bioreactors), ensuring that broken hardware sensors or hyperactive firmware loops do not DDoS downstream cloud compute, exhaust storage I/O, or crash downstream ETL pipelines with structurally malformed data.
+### 2.1 Security and routing
 
-Ultimately, this abstraction serves a dual-customer delivery model: providing FAIR-compliant, AI-ready scientific data for the Business (Customer A), and real-time hardware reliability metrics for Platform Engineering (Customer B).
+The gateway enforces a four-tier flow:
 
-## 2. Infrastructure Component Mappings
+1. Tier 1: validate the client IP and agent key
+2. Tier 2: enforce the per-equipment RPM limit
+3. Tier 3: validate the payload against the schema contract in [config/inbound_schema.json](../config/inbound_schema.json)
+4. Tier 4: on shutdown, flush any remaining approved payloads from VRAM before exit
 
-* **FastAPI Middleware ➡️ Enterprise Observability (e.g., Datadog / AWS CloudWatch)**
-* **Role:** Acts as the outer-edge telemetry tracker. Intercepts all inbound traffic to log P95 latency and HTTP status codes into structured JSON files (`telemetry.log`), guaranteeing Day-2 operational visibility.
+This means the gateway performs authentication and rate-limit enforcement as a hard gate, while schema mismatches are preserved in quarantine rather than silently ignored.
 
+### 2.2 Result semantics
 
-* **FastAPI Routing & Pydantic ➡️ Enterprise API Gateway (e.g., AWS API Gateway / AWS IoT Core)**
-* **Role:** Acts as the edge interception proxy. It authenticates physical equipment (403 Hard Drops), enforces strict structural schema contracts, and routes malformed JSON payloads (422) directly to a local Hive-partitioned Quarantine.
+- 403 Forbidden: invalid agent key or disallowed source IP
+- 429 Too Many Requests: the equipment exceeded its configured RPM window
+- 422 Validation Error: payload failed the schema contract and was written to quarantine
+- 200 OK: payload was accepted and queued into the volatile VRAM buffer
 
+### 2.3 Graceful shutdown
 
-* **Redis-mock + `asyncio.Lock()` ➡️ Distributed In-Memory Cache (e.g., AWS ElastiCache / Redis)**
-* **Role:** Functions as the local high-speed state tracker with strict concurrency controls. It maintains the Requests-Per-Minute (RPM) volumetric counters for every localized piece of equipment, instantly triggering 429 Hard Drops if a sensor firmware crashes into a hyperactive loop.
+The shutdown path is not a re-run of Tier 1, 2, or 3. It is a lifecycle durability step. Once the process is terminating, the gateway drains the approved queue from the in-memory VRAM buffer and writes the remaining approved payloads to disk before exit.
 
-
-* **Virtual VRAM (`asyncio.Queue`) ➡️ Distributed Event Streaming (e.g., Apache Kafka / AWS Kinesis)**
-* **Role:** Acts as the asynchronous backpressure buffer. It absorbs massive concurrent `200 OK` factory data uploads in volatile memory and dynamically flushes them via Hive Partitioning to disk based on strict volume or time thresholds, proactively preventing localized storage I/O exhaustion.
-
-
-* **Asynchronous Swarm Simulator (`load_tester.py`) ➡️ Chaos Engineering & Load Testing (e.g., AWS Fault Injection Simulator / Locust)**
-* **Role:** Acts as the primary developer tool designed to violently test architectural constraints under extreme pressure. It simulates real-world hardware failures and massive concurrency to mathematically prove thread safety and validate 429 volumetric quotas.
-
-
-* **Python `watchdog` ➡️ Cloud Event Triggers (e.g., AWS S3 Event Notifications)**
-* **Role:** Emulates event-driven orchestration. The exact millisecond an approved equipment payload lands in the Bronze raw storage layer, it triggers the downstream ETL transformation pipeline.
-
-
-* **Nested JSON Directory ➡️ NoSQL Document Store (e.g., MongoDB / Zontal)**
-* **Role:** Preserves the deeply nested, hierarchical structure of the MedTech scientific observations (Data Package, Data Cube) into a harmonized Silver layer for FDA-compliant auditing.
-
-
-* **Programmatic BI Script (`kpi_report_generator.py`) ➡️ Enterprise Business Intelligence (e.g., AWS QuickSight / Tableau)**
-* **Role:** Acts as a Day-2 operational tool querying metadata to output System Health KPIs. It aggregates system metrics to instantly identify physical factories requiring hardware repair based on edge drop rates, serving the Platform Engineering team.
-
-
-* **Anthropic MCP Server ➡️ Enterprise Interoperability API**
-* **Role:** Acts as the secure programmatic adapter, fulfilling FAIR data principles (Findable, Accessible, Interoperable, Reusable) by allowing external enterprise AI systems and BI dashboards to query the Silver layer without direct database access.
-
-
-* **Python Bootstrapper (`system_orchestrator.py`) ➡️ Container Orchestration (e.g., Docker Compose / Kubernetes)**
-* **Role:** Solves the Day-2 "Terminal Sprawl" problem. Orchestrates the simultaneous local startup, integration, and graceful shutdown (`SIGINT` handling) of all discrete microservices via a single entrypoint.
-
-## 3. Client Server Architecture 
+## 3. Request lifecycle
 
 ```mermaid
-graph TB
-    %% Styles
-    classDef quarantine fill:#f99,stroke:#333,stroke-width:2px;
-    classDef storage fill:#bfb,stroke:#333,stroke-width:2px;
-    classDef bi fill:#ff9,stroke:#333,stroke-width:2px;
-    classDef profile fill:#ddd,stroke:#333,stroke-width:2px;
-    classDef external fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef config fill:#eee,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
+flowchart TD
+    classDef config fill:#d9f2d9,stroke:#333,stroke-width:1.5px,color:#111;
+    classDef process fill:#dfeaf7,stroke:#333,stroke-width:1.5px,color:#111;
+    classDef success fill:#d9f2d9,stroke:#333,stroke-width:1.5px,color:#111;
+    classDef failure fill:#f9d6d6,stroke:#333,stroke-width:1.5px,color:#111;
+    classDef storage fill:#f5e6d3,stroke:#333,stroke-width:1.5px,color:#111;
 
-    subgraph ClientSide ["1. Client Side (Test Scripts & Swarm Simulators)"]
-        LT["load_tester.py<br/>(Asynchronous IoT Swarm)"]
-        TI["test_injector.py<br/>(Functional UAT Runner)"]
-    end
+    Start([Inbound POST /ingest]):::process
+    Env[.env / AGENT_KEY]:::config
+    Policy[config/gateway_policy.yml]:::config
+    Schema[config/inbound_schema.json]:::config
+    Auth{Tier 1: valid key and IP?}:::process
+    RPM{Tier 2: within RPM limit?}:::process
+    Validate{Tier 3: schema valid?}:::process
 
-    subgraph ServerSide ["2. Edge Proxy (FastAPI Runtime)"]
-        POLICY["gateway_policy.yml<br/>(IP Whitelists & RPM Quotas)"]:::config
-        GW["gateway.py<br/>(API Gateway & Router)"]
-        MW["FastAPI Middleware<br/>(Observability Hook)"]
-        TELEMETRY["telemetry.log<br/>(Structured JSON Logs)"]:::profile
-        REDIS["redis_mock.py<br/>(RPM Volumetric Counter & Lock)"]
-        PYDANTIC["inbound_schema.json<br/>(Pydantic Contract Validator)"]:::config
-    end
+    Hard403[403 Forbidden]:::failure
+    Hard429[429 Too Many Requests]:::failure
+    Quarantine[422 Validation Error -> data/quarantine/structural/]:::failure
+    Log[(logs/telemetry.log)]:::storage
+    VRAM[(Virtual VRAM Buffer)]:::storage
+    Approved[(data/approved/year=YYYY/month=MM/day=DD/)]:::storage
+    Report[(reports/performance_metrics.md + reports/plots/)]:::storage
+    Runs[(runs/YYYY-MM-DD/HHMMSS-UUID/ + runs/latest)]:::storage
+    Success[200 Accepted]:::success
+    Shutdown[Tier 4: graceful shutdown flush]:::process
 
-    subgraph StorageLayer ["3. Local Storage & Data Lakehouse"]
-        VRAM["virtual_vram_batcher.py<br/>(Asyncio VRAM Queue)"]
-        BRONZE["/bronze_raw/<br/>(Hive-Partitioned Disk)"]:::storage
-        WATCHDOG["event_listener.py<br/>(Watchdog OS Event Hook)"]
-        DICT["DATA_DICTIONARY_AND_CONTRACTS.md<br/>(FAIR Metrics Glossary)"]:::config
-        SILVER["/silver_harmonized/<br/>(NoSQL Document Store)"]:::storage
-        QFolder["/quarantine/structural/<br/>(Malformed JSON)"]:::quarantine
-    end
+    Start --> Env
+    Start --> Policy
+    Start --> Schema
+    Env --> Auth
+    Policy --> Auth
+    Auth -- no --> Hard403
+    Auth -- yes --> RPM
+    RPM -- no --> Hard429
+    RPM -- yes --> Validate
+    Validate -- no --> Quarantine
+    Validate -- yes --> Success
 
-    subgraph ProfilingAndBI ["4. Profiling, BI & Interoperability"]
-        PM["performance_metrics.md<br/>(SLO Profiling Output)"]:::profile
-        KPI["kpi_report_generator.py<br/>(Day-2 System Health BI)"]:::bi
-        MCP["Anthropic MCP Server<br/>(AI Tooling Adapter)"]:::bi
-    end
-    
-    AI["External AI Agent<br/>(Claude / Gemini)"]:::external
+    Success --> VRAM
+    VRAM --> Approved
+    Hard403 --> Log
+    Hard429 --> Log
+    Quarantine --> Log
+    Success --> Log
 
-    %% 1. Client to Server Ingress
-    LT -->|"Concurrent Swarm"| GW
-    TI -->|"Functional Tests"| GW
-    LT -.->|"Generates upon completion"| PM
+    Approved --> Report
+    Quarantine --> Report
+    Report --> Runs
 
-    %% 2. Server Internal Routing & Defenses
-    POLICY -.->|"Defines 403/429 Rules"| GW
-    GW --> MW
-    MW -->|"Writes P95/Status Codes"| TELEMETRY
-    MW --> REDIS
-    REDIS -->|"Check RPM Limit (429)"| GW
-    GW --> PYDANTIC
-    
-    %% 3. Handling Outcomes
-    PYDANTIC -->|"Malformed (422)"| QFolder
-    PYDANTIC -->|"Valid (200 OK)"| VRAM
+    Shutdown --> VRAM
+    VRAM --> Approved
+```
 
-    %% 4. Storage & ETL Pipeline Flow
-    VRAM -->|"Volume/Time Flush"| BRONZE
-    BRONZE -->|"File Creation Event"| WATCHDOG
-    DICT -.->|"Injected into Payload"| WATCHDOG
-    WATCHDOG -->|"ETL, Strip Keys, Inject Chain-of-Custody"| SILVER
+## 4. Operational artifact boundaries
 
-    %% 5. BI and Interoperability Connections
-    TELEMETRY -.->|"Query Drop Rates"| KPI
-    SILVER -.->|"Query Data Truth"| KPI
-    SILVER -.->|"Exposed as Read-Only Resources"| MCP
-    
-    %% 6. AI Tooling Execution
-    MCP <-->|"Exposes Tools (get_sensor_history)"| AI
-    ```
+The repo is designed around clear input and output boundaries:
+
+- Inputs:
+  - [config/gateway_policy.yml](../config/gateway_policy.yml)
+  - [config/inbound_schema.json](../config/inbound_schema.json)
+  - [.env](../.env)
+  - runtime traffic sent to the FastAPI /ingest endpoint
+
+- Operational outputs:
+  - [logs/](../logs/) for telemetry and buffer flush logs
+  - [data/approved/](../data/approved/) for accepted payloads
+  - [data/quarantine/structural/](../data/quarantine/structural/) for malformed payloads
+  - [reports/](../reports/) for markdown summaries and plots
+  - [runs/](../runs/) for execution snapshots and latest symlink
+
+## 5. Architectural summary
+
+The design is intentionally explicit and auditable:
+
+- authentication is a hard gate
+- rate-limiting is a hard gate
+- schema validation preserves malformed data in quarantine
+- approved data is buffered in memory and then written to partitioned disk storage
+- operator reporting and execution snapshots are produced from the persisted data and runtime logs
+
+This keeps the implementation aligned with the actual runtime behavior, the runbook diagrams, and the repo’s file layout.
