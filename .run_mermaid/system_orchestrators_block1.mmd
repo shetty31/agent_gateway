@@ -1,0 +1,49 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef file fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef failure fill:#E74C3C,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef success fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef config fill:#2ECC71,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#F39C12,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: CLI Execution]):::startEnd
+    Parse[Parse CLI Arguments]:::process
+    Policy[config/gateway_policy.yml]:::config
+    Schema[config/inbound_schema.json]:::config
+
+    subgraph Environment Provisioning
+        Folder[Create Timestamped runs/ Directory]:::process
+        Meta[Write run_metadata.json]:::file
+        SymlinkData[Create data/ symlink to root]:::process
+    end
+
+    ExecLoad[Execute load_tester.py]:::process
+    CheckRC{Exit Code == 0?}:::process
+    Fail([Hard Stop: Exit Pipeline]):::failure
+
+    ExecReport[Execute generate_performance_report.py]:::process
+    ResultFile[(load_tester_results.json)]:::storage
+    Report[(performance_metrics.md + reports/plots/)]:::storage
+    Latest[(runs/latest symlink)]:::storage
+    End([Output: Pipeline Complete]):::success
+
+    Start --> Parse
+    Parse --> Policy
+    Parse --> Schema
+    Parse --> Folder
+    Folder --> Meta
+    Folder --> SymlinkData
+    SymlinkData --> ExecLoad
+
+    ExecLoad --> ResultFile
+    ResultFile --> ExecReport
+    ExecReport --> Report
+
+    ExecLoad --> CheckRC
+    CheckRC -- "No" --> Fail
+    CheckRC -- "Yes" --> ExecReport
+
+    Report --> Latest
+    Latest --> End

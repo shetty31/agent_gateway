@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-08-17T03:12:30.039268Z",
+  "approved_count": 0,
+  "quarantine_count": 0,
+  "approved_ids_count": 0,
+  "quarantine_ids_count": 0,
+  "statuses": {},
+  "errors": {
+    "Cannot connect to host 127.0.0.1:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]": 100
+  },
+  "matched_approved_count": 0,
+  "matched_quarantine_count": 0,
+  "zero_loss": false,
+  "slo_pass": true
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-08-17T02:27:47Z",
+  "scenario": "approved",
+  "total_requests": 500,
+  "concurrency": 50,
+  "slo_ms": 50,
+  "run_id": "222747-fd6c"
+}

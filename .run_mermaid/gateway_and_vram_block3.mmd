@@ -1,0 +1,31 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Inbound: HTTP 200 OK Payload]):::startEnd
+    Queue[(Volatile RAM: asyncio.Queue)]:::process
+    
+    Start --> |ingest_payload| Queue
+    
+    Volumetric{Queue Size >= Threshold?}:::logic
+    Temporal{Monitor: Interval Elapsed?}:::logic
+    Shutdown{Graceful Shutdown Received?}:::logic
+    
+    Queue --> Volumetric
+    Queue --> Temporal
+    Queue -.-> Shutdown
+    
+    Flush[Drain Queue & Bulk Flush]:::process
+    
+    Volumetric -- "Volume Reached" --> Flush
+    Temporal -- "Timer Reached" --> Flush
+    Shutdown -- "SIGINT Intercepted" --> Flush
+    
+    Disk[(Local Disk: /data/approved/)]:::storage
+    Log[(Local Disk: logs/vram_flushes.log)]:::storage
+    
+    Flush --> |Hive Partitioning| Disk
+    Flush --> |Write Flush Metadata| Log

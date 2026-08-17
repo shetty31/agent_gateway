@@ -1,0 +1,38 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef bypass fill:#F39C12,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef breach fill:#E74C3C,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef success fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Inbound Gateway Inquiry]):::startEnd
+    CheckBypass{Is it a Life-Safety Alert?}:::logic
+    AlertBypass[Bypass Volumetric Quota]:::bypass
+    
+    Lock[Acquire Single-File Turnstile Lock]:::process
+    GC[[Background Task: Garbage Collector]]:::process
+    
+    Calculate{Calculate Rolling 60-Sec Window}:::logic
+    
+    Breach[Flag Breach: Quota Exceeded]:::breach
+    Allow[Record Timestamp & Approve]:::success
+    
+    EndFalse([Output: False - Traffic Allowed]):::startEnd
+    EndTrue([Output: True - Trigger Hard Drop]):::startEnd
+
+    Start --> CheckBypass
+    CheckBypass -- "critical_alert: true" --> AlertBypass
+    AlertBypass --> EndFalse
+    
+    CheckBypass -- "Standard Telemetry" --> Lock
+    Lock --> Calculate
+    
+    Calculate -- "Current Count >= 60" --> Breach
+    Calculate -- "Current Count < 60" --> Allow
+    
+    Breach --> EndTrue
+    Allow --> EndFalse
+    
+    GC -.-> |Sweeps stale data every 10s| Calculate

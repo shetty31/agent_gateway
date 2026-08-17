@@ -1,0 +1,33 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef verify fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: Automated Pytest Execution]):::startEnd
+    Setup[Provision Isolated Temporary Directory]:::process
+    
+    subgraph Test Scenarios [Validation Vectors]
+        Vol[Simulate Volumetric Threshold]:::logic
+        Temp[Simulate Temporal Timer]:::logic
+        Shut[Simulate Graceful Shutdown]:::logic
+    end
+    
+    Flush[Trigger Buffer Flush to Disk]:::process
+    Scan[Scan Sandbox for Partitioned Files]:::verify
+    Assert[Verify Exact Payload Contents]:::verify
+    End([Output: Test Pass / Fail]):::startEnd
+
+    Start --> Setup
+    Setup --> Vol
+    Setup --> Temp
+    Setup --> Shut
+    
+    Vol -- "Payload count reached" --> Flush
+    Temp -- "Time limit reached" --> Flush
+    Shut -- "Termination signal sent" --> Flush
+    
+    Flush --> Scan
+    Scan --> Assert
+    Assert --> End

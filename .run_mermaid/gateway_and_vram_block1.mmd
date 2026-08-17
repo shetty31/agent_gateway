@@ -1,0 +1,69 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef failure fill:#E74C3C,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef success fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef config fill:#2ECC71,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Inbound IoT Traffic: POST /ingest]):::startEnd
+    Timer[Middleware: Start Stopwatch]:::process
+
+    Policy[config/gateway_policy.yml]:::config
+    Schema[config/inbound_schema.json]:::config
+    Env[.env / AGENT_KEY]:::config
+
+    T1{Tier 1: Auth & IP}:::logic
+    T2{Tier 2: Volumetric RPM}:::logic
+    T3{Tier 3: Schema Contract}:::logic
+    T4{Tier 4: Shutdown Lifecycle}:::logic
+
+    Drop403[Hard Drop: 403 Forbidden]:::failure
+    Drop429[Hard Drop: 429 Too Many Requests]:::failure
+    Quarantine422[Quarantine: 422 Validation Failure]:::failure
+    QDisk[(data/quarantine/structural/year=YYYY/month=MM/day=DD)]:::storage
+    ApprovedDisk[(data/approved/year=YYYY/month=MM/day=DD)]:::storage
+    Log[(logs/telemetry.log)]:::storage
+    Report[(reports/performance_metrics.md + reports/plots/)]:::storage
+    Runs[(runs/YYYY-MM-DD/HHMMSS-UUID/ + runs/latest)]:::storage
+
+    Accept[HTTP 200 OK]:::success
+    VRAM[(Memory: Virtual VRAM Buffer)]:::storage
+    Approved[(Approved payloads in VRAM)]:::storage
+    Flush[Shutdown: flush approved queue to disk]:::process
+
+    Start --> Timer
+    Timer --> Policy
+    Timer --> Schema
+    Timer --> Env
+    Policy --> T1
+    Env --> T1
+    Schema --> T3
+
+    T1 -- "Invalid Key / IP" --> Drop403
+    T1 -- "Valid" --> T2
+
+    T2 -- "Breaches 60 RPM" --> Drop429
+    T2 -- "Under Limit" --> T3
+
+    T3 -- "Malformed or mismatched payload" --> Quarantine422
+    Quarantine422 --> QDisk
+
+    T3 -- "Valid Payload" --> Accept
+    Accept --> Approved
+    Approved --> VRAM
+    VRAM --> |batch flush| ApprovedDisk
+    Flush --> |persist queue contents| VRAM
+    VRAM --> |approved batch| ApprovedDisk
+
+    T4 -- "SIGINT / shutdown" --> Flush
+
+    Drop403 --> Log
+    Drop429 --> Log
+    Quarantine422 --> Log
+    Accept --> Log
+    ApprovedDisk --> Report
+    QDisk --> Report
+    Report --> Runs

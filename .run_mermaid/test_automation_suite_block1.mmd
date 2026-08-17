@@ -1,0 +1,53 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef external fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef failure fill:#E74C3C,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef config fill:#2ECC71,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#F39C12,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: CLI Execution]):::startEnd
+    Config[Parse CLI + Scenario Config]:::process
+    PayloadGen[Generate Targeted Scenario Payloads]:::logic
+    Env[.env / AGENT_KEY]:::config
+    Policy[config/gateway_policy.yml]:::config
+
+    subgraph Swarm Simulator [Asynchronous Concurrency Engine]
+        Dispatcher[Dispatch Concurrent Network Requests]:::process
+        NetworkWait{Wait for Response}:::logic
+        Timeout[Timeout / Client Error]:::failure
+        Success[Record HTTP Status & Latency]:::process
+
+        Dispatcher --> NetworkWait
+        NetworkWait -- "Exceeds --timeout" --> Timeout
+        NetworkWait -- "Gateway Replies" --> Success
+    end
+
+    Gateway[(External API Gateway)]:::external
+    Approved[(data/approved/ + quarantine/structural/)]:::storage
+    Logs[(logs/telemetry.log)]:::storage
+    Report[Aggregate Metrics & KPIs]:::process
+    TermOut([Output: Terminal Summary]):::startEnd
+    FileOut([Output: load_tester_results.json]):::startEnd
+    Runs[(runs/YYYY-MM-DD/HHMMSS-UUID/)]:::storage
+
+    %% Flow
+    Start --> Config
+    Config --> Env
+    Config --> Policy
+    Env --> PayloadGen
+    Policy --> PayloadGen
+    PayloadGen --> Dispatcher
+    NetworkWait -- "HTTP POST" --> Gateway
+    Gateway -- "HTTP Response" --> NetworkWait
+
+    Gateway --> Approved
+    Gateway --> Logs
+    Timeout --> Report
+    Success --> Report
+
+    Report --> TermOut
+    Report --> |If --save-results| FileOut
+    FileOut --> Runs
