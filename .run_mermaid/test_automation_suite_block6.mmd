@@ -1,0 +1,52 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef file fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef report fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: CLI Execution]):::startEnd
+    
+    subgraph Inputs [Data Ingestion]
+        RawJSON[(load_tester_results.json)]:::file
+        AppDisk[(data/approved/)]:::file
+        QuarDisk[(data/quarantine/)]:::file
+    end
+
+    Parse[Parse Test Execution Metrics]:::process
+    Scan[Scan Physical Partitions for Payloads]:::process
+    Extract[Extract Unique Request IDs]:::process
+    
+    RawJSON --> Parse
+    AppDisk --> Scan
+    QuarDisk --> Scan
+    AppDisk --> Extract
+    QuarDisk --> Extract
+
+    subgraph Mathematical Reconciliation
+        SLO{SLO Check: P95 Latency < Threshold?}:::logic
+        Reconcile{Zero Data Loss: Total Input == Total Output?}:::logic
+        VRAM{VRAM Resilient: Approved > 0 & Errors == 0?}:::logic
+        
+        Parse --> SLO
+        Parse --> Reconcile
+        Extract --> Reconcile
+        Scan --> VRAM
+        Parse --> VRAM
+    end
+    
+    GenPlots[Generate Matplotlib Graphs]:::process
+    Compile[Compile Markdown Report]:::process
+    Manifest[Generate data_manifest.json]:::process
+    
+    Parse -.-> |If Matplotlib Available| GenPlots
+    
+    SLO --> Compile
+    Reconcile --> Compile
+    VRAM --> Compile
+    GenPlots --> Compile
+    
+    Compile --> OutMD([Output: performance_metrics.md]):::report
+    Reconcile --> Manifest
+    Manifest --> OutManifest([Output: data_manifest.json]):::report

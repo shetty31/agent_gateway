@@ -1,0 +1,16 @@
+[
+  {
+    "equipment_id": "bioreactor-001",
+    "payload": {
+      "agent_key": "demo-agent-key",
+      "critical_alert": false,
+      "equipment_id": "bioreactor-001",
+      "telemetry": {
+        "dissolved_oxygen": 95.3,
+        "ph_level": 7.2,
+        "temperature": 37.5
+      },
+      "timestamp": "2026-08-17T03:13:38.682490+00:00Z"
+    }
+  }
+]

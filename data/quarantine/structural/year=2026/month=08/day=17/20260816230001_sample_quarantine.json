@@ -1,0 +1,7 @@
+{
+  "agent_key": "demo-agent-key",
+  "critical_alert": true,
+  "equipment_id": "sensor-broken-001",
+  "telemetry": "MALFORMED_STRING_INSTEAD_OF_DICT",
+  "timestamp": "2026-08-17T03:13:38.682808+00:00Z"
+}

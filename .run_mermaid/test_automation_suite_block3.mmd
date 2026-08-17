@@ -1,0 +1,23 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef verify fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: Pytest Execution]):::startEnd
+    Setup[Override VRAM Storage to Sandbox]:::process
+    Ingest[Ingest 2 Mock Payloads into RAM Queue]:::process
+    Shutdown[Trigger Graceful Shutdown Sequence]:::logic
+    Flush[Buffer Flushes RAM to Local Disk]:::process
+    Scan[Search for .json files in /approved/]:::logic
+    Verify[Assert File Contains Both Payloads]:::verify
+    End([Output: Test Pass / Fail]):::startEnd
+
+    Start --> Setup
+    Setup --> Ingest
+    Ingest --> Shutdown
+    Shutdown --> Flush
+    Flush --> Scan
+    Scan --> Verify
+    Verify --> End

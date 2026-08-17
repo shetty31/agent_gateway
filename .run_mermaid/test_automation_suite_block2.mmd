@@ -1,0 +1,32 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef external fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef verify fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: CLI Arg or Interactive Menu]):::startEnd
+    Menu{Which Scenario?}:::logic
+    
+    Start --> Menu
+    
+    Menu -- "A" --> Gen403[Generate Unauthorized Payload]:::process
+    Menu -- "B" --> Gen422[Generate Malformed Payload]:::process
+    Menu -- "C" --> Gen429[Generate 65 Sequential Payloads]:::process
+    Menu -- "D" --> GenBypass[Generate 100 Critical Alert Payloads]:::process
+    
+    Gen403 --> Network
+    Gen422 --> Network
+    Gen429 --> Network
+    GenBypass --> Network
+    
+    subgraph Synchronous Injector
+        Network[Dispatch HTTP POST Request]:::process
+        Gateway[(Local API Gateway)]:::external
+        Network -- "HTTP Payload" --> Gateway
+        Gateway -- "HTTP Status Code" --> Network
+    end
+    
+    Network --> Eval[Evaluate Status vs Business Rule]:::logic
+    Eval --> TermOut([Output: Acceptance Met / Not Met]):::verify
