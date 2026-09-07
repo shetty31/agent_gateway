@@ -120,43 +120,62 @@ def _serialize_results(results: list[RequestResult]) -> list[dict[str, Any]]:
 
 
 def build_payload(index: int, scenario: str, extra_payload: str | None) -> dict[str, Any]:
+    timestamp_str = datetime.utcnow().isoformat() + "Z"
+    
+    # The FDA-compliant "Golden Payload" inner structure
+    golden_payload = {
+        "timestamp": timestamp_str,
+        "critical_alert": False,
+        "telemetry": {
+            "temperature_c": 37.5,
+            "bioreactor_rpm": 250,
+            "sensor_status": "OK"
+        }
+    }
+
     if scenario == "forbidden":
-        payload_body: Any = {"sensor": "temp", "value": 25.0}
+        # Keep payload schema-compliant; auth will be rejected by agent key
+        payload_body: Any = golden_payload
+        equip_id = f"load-test-forbidden-{index % 5}"
     elif scenario == "quarantine":
         payload_body = "invalid-payload"
+        equip_id = f"load-test-quarantine-{index % 5}"
+        
     elif scenario == "rate_limit":
-        payload_body = {"sensor": "rpm", "value": index}
-    else:
-        payload_body = {"sensor": "humidity", "value": float(index % 100)}
+        # MUST use a single static ID to quickly breach the 60 RPM limit
+        payload_body = golden_payload
+        equip_id = "load-test-rate_limit-STATIC"
+        
+    else: # "approved"
+        # MUST distribute across many IDs so no single ID breaches the 60 RPM limit
+        payload_body = golden_payload
+        equip_id = f"load-test-approved-{index % 100}"
 
     base_payload: dict[str, Any] = {
-        "equipment_id": f"load-test-{scenario}-{index % 5}",
+        "equipment_id": equip_id,
         "payload": payload_body,
     }
 
     if scenario == "mixed":
         variant = index % 4
         if variant == 0:
-            base_payload["equipment_id"] = "load-test-approved"
-            base_payload["payload"] = {"sensor": "ecg", "value": 0.85}
+            base_payload["equipment_id"] = "load-test-approved-mixed"
+            base_payload["payload"] = golden_payload
         elif variant == 1:
-            base_payload["equipment_id"] = "load-test-429"
-            base_payload["payload"] = {"sensor": "rpm", "value": index}
+            base_payload["equipment_id"] = "load-test-429-STATIC"
+            base_payload["payload"] = golden_payload
         elif variant == 2:
             base_payload["equipment_id"] = "load-test-422"
             base_payload["payload"] = "malformed"
         else:
             base_payload["equipment_id"] = "load-test-403"
-            base_payload["payload"] = {"sensor": "temp", "value": 18.1}
+            base_payload["payload"] = golden_payload
 
     if extra_payload is not None:
         try:
             extra_data = json.loads(extra_payload)
-            if isinstance(extra_data, dict):
-                base_payload["payload"] = {
-                    **(base_payload["payload"] if isinstance(base_payload["payload"], dict) else {}),
-                    **extra_data,
-                }
+            if isinstance(extra_data, dict) and isinstance(base_payload["payload"], dict):
+                base_payload["payload"].update(extra_data)
         except json.JSONDecodeError:
             pass
 
@@ -210,14 +229,11 @@ async def run_load_test(config: LoadTesterConfig) -> list[RequestResult]:
         async def worker(index: int) -> None:
             async with semaphore:
                 payload = build_payload(index, config.scenario, config.extra_payload)
-                # ensure payload.payload is a dict so we can attach a request id
+                # Do NOT mutate the payload to add request ids (would violate inbound schema)
                 req_id = uuid.uuid4().hex
-                if not isinstance(payload["payload"], dict):
-                    payload["payload"] = {"raw": payload["payload"]}
-                payload["payload"]["_request_id"] = req_id
                 agent_key = choose_agent_key(index, config.agent_key, config.scenario)
                 result = await send_one_request(session, config.url, payload, agent_key, config.timeout)
-                # attach request id to result for downstream reconciliation
+                # attach request id locally for correlation only
                 result.request_id = req_id
                 results.append(result)
 

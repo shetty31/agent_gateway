@@ -1,0 +1,16 @@
+{
+  "dimensions": {
+    "equipment_id": "EQ-789",
+    "timestamp": "2026-08-24T19:43:41.379449+00:00",
+    "critical_alert": false
+  },
+  "facts": {
+    "temperature_c": 36.8,
+    "bioreactor_rpm": 180,
+    "sensor_status": "OK"
+  },
+  "metadata": {
+    "parser_script_version": "1.0.0",
+    "glossary_version": "1.0.0"
+  }
+}

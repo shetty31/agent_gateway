@@ -7,6 +7,16 @@ set -euo pipefail
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 PYTHON=${PYTHON:-"$ROOT/venv/bin/python"}
 
+# Load and export variables from project .env so test processes inherit AGENT_KEY etc.
+if [ -f "$ROOT/.env" ]; then
+  echo "Loading environment from $ROOT/.env"
+  # export all variables sourced from the file
+  set -a
+  # shellcheck disable=SC1090
+  source "$ROOT/.env"
+  set +a
+fi
+
 SCENARIO="mixed"
 TOTAL=1000
 CONC=100

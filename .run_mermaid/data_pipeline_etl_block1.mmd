@@ -1,0 +1,41 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef failure fill:#E74C3C,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: Daemon Execution]):::startEnd
+    Watchdog{OS File-System Hook}:::logic
+
+    Bronze[(data/approved/)]:::storage
+    
+    Watchdog -- "Detects File Creation" --> Queue
+    Bronze -.-> |Raw JSON Payload| Watchdog
+    
+    subgraph ETL Transformation Pipeline
+        Queue[Sequential Processing Queue]:::process
+        Extract[Read Raw File to Memory]:::process
+        Strip[Strip Security Credentials]:::process
+        Enrich[Inject Immutable Metadata & Glossary]:::process
+        Transform[Map to Data Cube Schema]:::process
+        
+        Queue --> Extract
+        Extract --> Strip
+        Strip --> Enrich
+        Enrich --> Transform
+    end
+    
+    Validate{Transformation Successful?}:::logic
+
+    Silver[(data/silver_harmonized/)]:::storage
+    Archive[(data/archive/bronze/)]:::storage
+    Quarantine[(data/quarantine/etl_failed/)]:::failure
+    
+    Transform --> Validate
+    Validate -- "Yes" --> Silver
+    Validate -- "Yes" --> Archive
+    Validate -- "No (Schema Error)" --> Quarantine
+    
+    Silver -.-> End([Output: Silver JSON]):::startEnd

@@ -1,0 +1,12 @@
+{
+  "equipment_id": "SMOKE-EQ-3",
+  "payload": {
+    "timestamp": "2026-08-24T21:01:11.944948Z",
+    "critical_alert": false,
+    "telemetry": {
+      "temperature_c": 36.1,
+      "bioreactor_rpm": 210,
+      "sensor_status": "OK"
+    }
+  }
+}

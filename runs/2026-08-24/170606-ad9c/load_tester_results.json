@@ -1,0 +1,3013 @@
+{
+  "generated_at": "2026-08-24T21:06:06.905554Z",
+  "config": {
+    "url": "http://127.0.0.1:8000/ingest",
+    "scenario": "approved",
+    "total_requests": 500,
+    "concurrency": 50,
+    "timeout": 5.0,
+    "agent_key": "sk_local_agentguard_v1_9a8b7c6d5e"
+  },
+  "results": [
+    {
+      "status": 200,
+      "latency_ms": 41.2136249942705,
+      "error": null,
+      "request_id": "b024292a37ea423a87c915ca7afb9e87"
+    },
+    {
+      "status": 200,
+      "latency_ms": 33.76008299528621,
+      "error": null,
+      "request_id": "cdfd4f594ca14d5aa0a324df4d12ad11"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.46970800217241,
+      "error": null,
+      "request_id": "24a24f2674eb46c9bdf625210e4387e8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.518959002918564,
+      "error": null,
+      "request_id": "65a165bce40044b48e5cd8ceeeb012db"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.338957996107638,
+      "error": null,
+      "request_id": "5d22e3bae8cc43c393c9738d492a777d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.75166700303089,
+      "error": null,
+      "request_id": "73b4ca8d532f4a7eb658e63e067c984a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.257916997768916,
+      "error": null,
+      "request_id": "359b9adc91704ee0b4269781f8e8c66d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.103417000034824,
+      "error": null,
+      "request_id": "4702049a9d4a48b4983decbc40e62ccc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.975041997502558,
+      "error": null,
+      "request_id": "7c7c1906fa0641fbb91817e63a75f13a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.856209005927667,
+      "error": null,
+      "request_id": "ce0074c731e548b8a853bc87e150e629"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.73066699935589,
+      "error": null,
+      "request_id": "7a9106d632a54d2e8d7059fae28039b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.610542001435533,
+      "error": null,
+      "request_id": "b3643597e37f46418a02e56715d798a3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.487750001251698,
+      "error": null,
+      "request_id": "29a9e68c42584dcb8e9bb06c520eb6e2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.999916986213066,
+      "error": null,
+      "request_id": "72b5026bd9c849e1b52687120d4972ba"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.890291005955078,
+      "error": null,
+      "request_id": "318b9d334adc4a80a2dd1691aa1889c4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.779291994287632,
+      "error": null,
+      "request_id": "8d1e446d6d1d4ddb83c3c1810c329469"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.676791999605484,
+      "error": null,
+      "request_id": "59ba018364a3431c88225a580e8e77a6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.57950000441633,
+      "error": null,
+      "request_id": "21b8373f559a40dd855d41edb0d11ec4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.44458398874849,
+      "error": null,
+      "request_id": "d2543b29daf3429da6f368301f6750fb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.33954200730659,
+      "error": null,
+      "request_id": "b36475ad2f6b467fb99f48c69615269b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.234250009409152,
+      "error": null,
+      "request_id": "717c6bc0dd804fc98fb9951feb8f8353"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.126874992158264,
+      "error": null,
+      "request_id": "0a510e2d393148288352cc9ca83373fb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.025625006994233,
+      "error": null,
+      "request_id": "3236355b10ff465a9135c3b566c264fa"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.921625000890344,
+      "error": null,
+      "request_id": "b08fa840813a4c429d258b2b0d872b5e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 29.415500001050532,
+      "error": null,
+      "request_id": "8b7929c675b1496ebc36af3d0680b7d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 29.286666991538368,
+      "error": null,
+      "request_id": "8b8246401b0043c8b63bcc12aec3de4b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 29.18062498793006,
+      "error": null,
+      "request_id": "e5a00cad353841c2b4aba25e397827c2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 29.015959007665515,
+      "error": null,
+      "request_id": "91b38cb715974211908f82e49339d99b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.887125008623116,
+      "error": null,
+      "request_id": "91be58f9e1e14119b110f7e3d6c8a544"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.6206669989042,
+      "error": null,
+      "request_id": "94ef4f7323d141c8a5de54943268347b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.49091599637177,
+      "error": null,
+      "request_id": "4f6360d714c64b29a880c54662dd09a2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.34999999322463,
+      "error": null,
+      "request_id": "cdfa9786b8484b37b5cbfe152ae6696e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.21270799904596,
+      "error": null,
+      "request_id": "db9ebd79f2d44766ba664f3279906657"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.054374997736886,
+      "error": null,
+      "request_id": "e9cd87ee67164fefb9cc24e1603261d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.907583993510343,
+      "error": null,
+      "request_id": "92697825771840abb9101b9e9106b6d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.77783300552983,
+      "error": null,
+      "request_id": "d8b63183152b4784804a9a0f2ea163c0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.656292004394345,
+      "error": null,
+      "request_id": "a98760635825489d93bae8ef87740caa"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.536541994777508,
+      "error": null,
+      "request_id": "28d43312cd73420cb95c034b0d3e5045"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.419417005148716,
+      "error": null,
+      "request_id": "c459bcfb331844119e63cf614612044f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.322250010911375,
+      "error": null,
+      "request_id": "e0a81f149a0141fc842d0cda288f52ef"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.180999997654,
+      "error": null,
+      "request_id": "6e89e98613ef475585e30bf04d3fc80e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.067791990702972,
+      "error": null,
+      "request_id": "9c001428af1a4ce08a8ab667f15d8258"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.956542002153583,
+      "error": null,
+      "request_id": "9395bb367be2479d8e754fb523bb3f7a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.840292004635558,
+      "error": null,
+      "request_id": "c1fdf795775e4c298f3546c26a0acd06"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.7307920003077,
+      "error": null,
+      "request_id": "c61b5708cb21452ca94bd4218cd83a0d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.608792002662085,
+      "error": null,
+      "request_id": "774d52f626c04640a5705cf522d17134"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.492332995985635,
+      "error": null,
+      "request_id": "955ce83e62e64ed28f76fd72604f8bb1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.35629200085532,
+      "error": null,
+      "request_id": "a92f12e2392d4c5a984d7fb3ea2e7e37"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.24745799403172,
+      "error": null,
+      "request_id": "bcc75e8c9561451db65c7a442cc13e54"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.14204199926462,
+      "error": null,
+      "request_id": "43dc0ff35ebd4c0382701588701c85c4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 12.487665997468866,
+      "error": null,
+      "request_id": "791bef7d465849ffb924a3d5715a4503"
+    },
+    {
+      "status": 200,
+      "latency_ms": 9.782541994354688,
+      "error": null,
+      "request_id": "5a921abc6e244abab5a05b507569201e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 8.773207999183796,
+      "error": null,
+      "request_id": "2ad6055fdeb8459c8df9382945cd7199"
+    },
+    {
+      "status": 200,
+      "latency_ms": 8.510665997164324,
+      "error": null,
+      "request_id": "413b705dfbc44e0e9400d03e1b1cd46d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 8.317833999171853,
+      "error": null,
+      "request_id": "fc23a7ef69a24d079a7213f2057580f8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 14.098125000600703,
+      "error": null,
+      "request_id": "2130fb5ad764463facbdd407e99b6ef1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.389499996672384,
+      "error": null,
+      "request_id": "ef087c03c0184b85b38eb6d8a0a1a511"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.984708996256813,
+      "error": null,
+      "request_id": "e59d55cbbdc7458eba7498581fe411c0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.101250002975576,
+      "error": null,
+      "request_id": "4515f35f0cc04493b9d4010fd3cdae06"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.24745799927041,
+      "error": null,
+      "request_id": "e67cf7ce8ac9448eb866bd1758a76160"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.189791989745572,
+      "error": null,
+      "request_id": "eedfa79a6f014b86a5195287b3b48eb3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.60874999652151,
+      "error": null,
+      "request_id": "e463408842524e0782a089ce2ac1f091"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.523625003173947,
+      "error": null,
+      "request_id": "08b04fc138f74b9295241e9ff8aef2e6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.240750003722496,
+      "error": null,
+      "request_id": "c6f48f2dcd3d45da87a6b6cbae321e61"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.310125008109026,
+      "error": null,
+      "request_id": "a54f78a737c848bdbe4f4c0f29e0fdda"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.37424998707138,
+      "error": null,
+      "request_id": "3818a3eabd674dbea2fcb7aa63e3bbec"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.53574999445118,
+      "error": null,
+      "request_id": "87fe320dc3e4488f8b6069e1225982f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.427082999958657,
+      "error": null,
+      "request_id": "0547573c1a7248e4910f6769b0721bca"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.33187501365319,
+      "error": null,
+      "request_id": "4daa459a195348e7817c761d1cdb967c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.23449999978766,
+      "error": null,
+      "request_id": "23931f87b2e347e682d84d6e84e2aabc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.94754099380225,
+      "error": null,
+      "request_id": "4ef64fbe280143f9ac5def98f23cad64"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.82579198759049,
+      "error": null,
+      "request_id": "b3d2c1bb84204f97af2b9bd8a34df9d6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.72383399354294,
+      "error": null,
+      "request_id": "6c3ae0e6d2104c068b5b8252d697958c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.61366700218059,
+      "error": null,
+      "request_id": "4365e2a275004bfe846edd3d634407f1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.34141699632164,
+      "error": null,
+      "request_id": "5dd967bec7114b3a8dbf8b4a9869923b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.57008301280439,
+      "error": null,
+      "request_id": "6c2a7c6d55194b8cb5d6a1d668473777"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.78049999626819,
+      "error": null,
+      "request_id": "602fc042cb8c47f9a7c149d3568e03f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.649624989251606,
+      "error": null,
+      "request_id": "fc8ff7da41b44e688a0d30c8c76740f1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.495999998180196,
+      "error": null,
+      "request_id": "9959758cd27e476096734d609dd5445d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.333541994565167,
+      "error": null,
+      "request_id": "3f9f334dda834d96993ee0572fc0b217"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.14925000630319,
+      "error": null,
+      "request_id": "407027207b9448c6b0334bede0eeeee3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.004667007829994,
+      "error": null,
+      "request_id": "016715649d024f34b04498e890241a4e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.846083000535145,
+      "error": null,
+      "request_id": "c5a7cbe29af94912bd98559a9ccb76a9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.731374996714294,
+      "error": null,
+      "request_id": "52cb215ad1d64e61bb6154fcb22caac7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.6296249931911,
+      "error": null,
+      "request_id": "4f6ea0326bee4b32b100f8efc134ee4b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.5335409961408,
+      "error": null,
+      "request_id": "22587ac01e654c7c8a05daa5bcbe361a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.30370900745038,
+      "error": null,
+      "request_id": "41e51a12de2a4deaa7e4b13d6815915f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.18274999561254,
+      "error": null,
+      "request_id": "655147c2a1284a8d806231ad9de99205"
+    },
+    {
+      "status": 200,
+      "latency_ms": 25.004458002513275,
+      "error": null,
+      "request_id": "6ff0cc9c61484ca4b50f1cbd46290736"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.832625000271946,
+      "error": null,
+      "request_id": "a0bec70ff60e4a10886cf498041894ae"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.71654200053308,
+      "error": null,
+      "request_id": "3d0626d48549466597afd22bab651160"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.566166001022793,
+      "error": null,
+      "request_id": "1a71b74076924caeb48ccd4241a9cb5d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.458584011881612,
+      "error": null,
+      "request_id": "d0b150fc42c04404ab1cc5fabdb07aa1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.336125003173947,
+      "error": null,
+      "request_id": "a8f0cfd29e0342f1907db2439020e915"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.223749991506338,
+      "error": null,
+      "request_id": "6b24c87cc4a844719c9bddaff05a4bfd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 25.310124998213723,
+      "error": null,
+      "request_id": "c1ef2b973b7445beb928f7bf8aa4f355"
+    },
+    {
+      "status": 200,
+      "latency_ms": 25.172791996737942,
+      "error": null,
+      "request_id": "e00f77843e764f048d74e04542bcbf25"
+    },
+    {
+      "status": 200,
+      "latency_ms": 25.06820799317211,
+      "error": null,
+      "request_id": "0aaf6f9b5e1741f7a89ab912db484d3e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.92999999958556,
+      "error": null,
+      "request_id": "c5e3c37614f44070a5ecfc8786d07da4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.814542004605755,
+      "error": null,
+      "request_id": "71d2c3fd91244a0eb7e45c57f4631bd2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.83808400190901,
+      "error": null,
+      "request_id": "509b116c7c4a4deb9ca9b5a0f7c577ac"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.734290996799245,
+      "error": null,
+      "request_id": "7678d9255eda4bb6bf905e11c180d85a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.62570900004357,
+      "error": null,
+      "request_id": "6f29c353eb5743a5b9b684254f43199a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.797500009299256,
+      "error": null,
+      "request_id": "8cec9f5d0b854c5c97aeacba4c759edd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 24.658833994180895,
+      "error": null,
+      "request_id": "b00faf0f46754d6599a2ae3c7a86a7d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.71345899417065,
+      "error": null,
+      "request_id": "a0aa8bc12b4d4d7597e84d89f404af41"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.11545799137093,
+      "error": null,
+      "request_id": "4e779251bd5d4ce0a0036928fb1aa2de"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.868124996311963,
+      "error": null,
+      "request_id": "218c67d8656b4315b7c8f68de664b995"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.977332998882048,
+      "error": null,
+      "request_id": "397bad074dc54c94b6ab61b11a8c3444"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.079458005260676,
+      "error": null,
+      "request_id": "e61dac66bc474178a23caaa02cb9987c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.150624990696087,
+      "error": null,
+      "request_id": "c19e1b38adf4449cafb223745e1637b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.03533298941329,
+      "error": null,
+      "request_id": "d9bde15197c14154833a9adf36eb39e7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.063499996671453,
+      "error": null,
+      "request_id": "9d4139aefca94b7c8f7c97b5dd09e9b3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.330707989865914,
+      "error": null,
+      "request_id": "aa15f79b52fe4f7582cf1799772de92e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.271500001195818,
+      "error": null,
+      "request_id": "fa8476c39ceb4590b94e64f1587cb6b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.21425000182353,
+      "error": null,
+      "request_id": "4be060633f9b4210ba922a7928ea214c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.123499994748272,
+      "error": null,
+      "request_id": "55cb63e08cc644c6b493a078eaea3b28"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.926332995761186,
+      "error": null,
+      "request_id": "e177ba43f73f4e6e931cd8b784cd1ba2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.817542004399,
+      "error": null,
+      "request_id": "600d0cd4df46459c902457b74473519f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.700958011322655,
+      "error": null,
+      "request_id": "d3a50f81d87a4e6eb17bf5f8cf78f825"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.236625008285046,
+      "error": null,
+      "request_id": "000ef3097d5e478c81c92eecc5099e94"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.002124998020008,
+      "error": null,
+      "request_id": "341857103d664097812b5e4509215b2c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.651666003279388,
+      "error": null,
+      "request_id": "e7227483ebd044a5af885e1d589d5a34"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.490916001610458,
+      "error": null,
+      "request_id": "0f6ec31745fb4552b505f857ce92a472"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.378125005052425,
+      "error": null,
+      "request_id": "bdcafd8f90314a61beb1a2e7524fa2d3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.3367500071181,
+      "error": null,
+      "request_id": "07e1077d06984c7ab433a1cac6175e78"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.018167001078837,
+      "error": null,
+      "request_id": "70912467d9fc45caaacbd7233d0273f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.591957997065037,
+      "error": null,
+      "request_id": "eb5d82d21b2b40608231d92c0836e6bf"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.61016699776519,
+      "error": null,
+      "request_id": "067349b72ff24ecda78c214a4ae48811"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.701124995364808,
+      "error": null,
+      "request_id": "1b48bae8f7834d7487af77a5f6f5f53a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.584834005101584,
+      "error": null,
+      "request_id": "312e9223f8334493b060edd727ba3c40"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.423750007874332,
+      "error": null,
+      "request_id": "631ad81d591d4ebdb468fdb6ad0586ad"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.30083299218677,
+      "error": null,
+      "request_id": "820673d13655467e9c43a3071f5ad127"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.174249999807216,
+      "error": null,
+      "request_id": "07879173295f477eba93d93daafac15f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.055125009501353,
+      "error": null,
+      "request_id": "837a122b01c94bbc8975708933ad24bc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.95279199804645,
+      "error": null,
+      "request_id": "0c375f3c0e7e43c0968d3dd827f36807"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.850709003047086,
+      "error": null,
+      "request_id": "8625ca49356f4ff8bccacc0ea2af1fa9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.754082990810275,
+      "error": null,
+      "request_id": "c08c14cd7bd14e759bbf7e653234e55e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.54587500647176,
+      "error": null,
+      "request_id": "4883174a4f4949a18e303d0814bc07bb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.41637499537319,
+      "error": null,
+      "request_id": "3781c5a13e46467899d0d15994795487"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.301958000753075,
+      "error": null,
+      "request_id": "df3ee2d005de4cfd8a4e131905acc559"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.137792009743862,
+      "error": null,
+      "request_id": "84a31be54cad48aa8656637e148a2198"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.983250000630505,
+      "error": null,
+      "request_id": "0c183b82b8b54c0bb21b15c3e3d053f1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.826667012646794,
+      "error": null,
+      "request_id": "e1b373c27fc843c884e4121c89cc95e0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.65633300319314,
+      "error": null,
+      "request_id": "d565a1bc362d481ab16de129bbfaf9f1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.398666998720728,
+      "error": null,
+      "request_id": "e6f4001fbb6a441882238eaa586d714b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.287833005771972,
+      "error": null,
+      "request_id": "73df0491842d48d9bc3757e29d39d8d4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.17408299818635,
+      "error": null,
+      "request_id": "0685e4e799084d5790208e46066e2a6c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.04029100155458,
+      "error": null,
+      "request_id": "557af49f891b4cc59db7a40d473d5ef7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.90316600515507,
+      "error": null,
+      "request_id": "3dbc9427f59a483abee1ece8da3bdc8f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.76087500608992,
+      "error": null,
+      "request_id": "bbc973a2a3e14264b1b23f8f882995e9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.610125007806346,
+      "error": null,
+      "request_id": "96437c6bf28548ed9483491a682f877b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.426874994882382,
+      "error": null,
+      "request_id": "fa16d4bbdc224a88a60db8a083cc9be8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.049958999152295,
+      "error": null,
+      "request_id": "47ea3a25e69b48c58ac512a25d9b5880"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.5991250006482,
+      "error": null,
+      "request_id": "df90c5ccd8744902bcb86657a1af74d4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.43562499259133,
+      "error": null,
+      "request_id": "2a9901a3b91a4b639beb140c3c921856"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.257915999740362,
+      "error": null,
+      "request_id": "b11bdb57233d49c9bb1e0778fa390f2f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 23.281792004127055,
+      "error": null,
+      "request_id": "f006d8d328214e62878a8ec43aba1a8f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 22.474708006484434,
+      "error": null,
+      "request_id": "a398d48b525e4ad08be3567a1d42d2c2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.107000003918074,
+      "error": null,
+      "request_id": "e4f2f8642aa243d59a412b415e5b653b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.04795800894499,
+      "error": null,
+      "request_id": "66cff1bd77d64c62a601d3ff8ab9b2e8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.016708003822714,
+      "error": null,
+      "request_id": "8a60470c01bd4cb7a0757a6aba6e1fa9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.977167001343332,
+      "error": null,
+      "request_id": "84b0ee7e17c04b82a5c47220b4facbfc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.026208003400825,
+      "error": null,
+      "request_id": "bc53d24d3d3f4d9f94eeb40f2cd73794"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.08712499809917,
+      "error": null,
+      "request_id": "cb31d427638149fb9151fbf738066fdb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.046874997206032,
+      "error": null,
+      "request_id": "b19f202c6eab4cf594a0c70dc3d80e8b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.97016700624954,
+      "error": null,
+      "request_id": "8ebecca300b44c359d46cb1571da757b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.86158298677765,
+      "error": null,
+      "request_id": "6698314143c7496d918d5fb24401ceaa"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.748249993426725,
+      "error": null,
+      "request_id": "7e6797c72214491c961f1a9db63b436b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.638666999526322,
+      "error": null,
+      "request_id": "bd1a2ce760314c23bf8e41118f8586ea"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.500666996464133,
+      "error": null,
+      "request_id": "43b36ce4effe46d9972064af593d694e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.346125001902692,
+      "error": null,
+      "request_id": "7b93754f32064abfa2327aaf4a476144"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.141374999890104,
+      "error": null,
+      "request_id": "5ba17ede1c914341b10314b128155a08"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.948666998767294,
+      "error": null,
+      "request_id": "c60ced1229a84d58afa7bf26019ec260"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.37408300000243,
+      "error": null,
+      "request_id": "312eb44d73474a6facbfb016a043a0d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.17249998950865,
+      "error": null,
+      "request_id": "df042d50942e466bb42ad9a66494d72d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.238333995919675,
+      "error": null,
+      "request_id": "1009ac407b7045b4a50b48e07f857588"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.701333996024914,
+      "error": null,
+      "request_id": "bd9550ecef864217944bdfad1fba3fd5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.691708005964756,
+      "error": null,
+      "request_id": "6db616cd68a74f5db7823aecfb186491"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.810750003671274,
+      "error": null,
+      "request_id": "8eb3a389f775424cb41003d5e335f240"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.868791991029866,
+      "error": null,
+      "request_id": "6ca9d3be361a4a6c91106d35c7c3173d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.919583006412722,
+      "error": null,
+      "request_id": "d6d78d9eab63405db006dee2ca9a5078"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.08470801229123,
+      "error": null,
+      "request_id": "adef7dfb89d54b35b2e0f5969652b0fc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.994874994154088,
+      "error": null,
+      "request_id": "b114a2a2839c4fe1bfa8a393229369a2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.878333012457006,
+      "error": null,
+      "request_id": "5e25cfcc6d7d4e59a265359d2661c2d3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.73454099788796,
+      "error": null,
+      "request_id": "69b9f256921e4c83b63501041b94ca98"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.618207996245474,
+      "error": null,
+      "request_id": "80576cab6e934a7ea03da49b8846d8b8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.511374994181097,
+      "error": null,
+      "request_id": "6567638ac7e74d08826feae7f5d2547c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.25425000465475,
+      "error": null,
+      "request_id": "11187c9dac684594adb477659d0a033f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.12245800870005,
+      "error": null,
+      "request_id": "00d8c4587b4946679dd14f0eb8b4c353"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.17258299747482,
+      "error": null,
+      "request_id": "7d87b60bfc334bb0992f66e1dec20414"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.861084005446173,
+      "error": null,
+      "request_id": "418ce8c8875f452dbbef2ae1cd133e5d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.917667003232054,
+      "error": null,
+      "request_id": "2f54a8769e1c4103ab5b346ebd026af7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.040249994257465,
+      "error": null,
+      "request_id": "e8f0448e0ee34b11af58c267e9d91b74"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.92212499701418,
+      "error": null,
+      "request_id": "9b309d13d48f42c4a260d6e8ffc094da"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.82720799080562,
+      "error": null,
+      "request_id": "80befd1488564439b987d89a1a147a40"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.717499995953403,
+      "error": null,
+      "request_id": "0ce61e460fd44a218848e22f236f7a2e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.599124996806495,
+      "error": null,
+      "request_id": "28b1ebc36ec94c15b380a90f17325628"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.490833005169407,
+      "error": null,
+      "request_id": "ed2277324e0c4cb8809d92d947e8615c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.367082994198427,
+      "error": null,
+      "request_id": "435956cd0cd74314bc3b76d26fc161f2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.981167002697475,
+      "error": null,
+      "request_id": "08970a4e6ec644b7b0a29af36db2d08b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.88925000478048,
+      "error": null,
+      "request_id": "7002e74dd83f4388b2d6104a8db6af10"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.138666008482687,
+      "error": null,
+      "request_id": "5a5566ad1d9446029e5b9ab0bf0d5570"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.042749998741783,
+      "error": null,
+      "request_id": "2d3d96a417ef412ba0f45c5434d585b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.594833011273295,
+      "error": null,
+      "request_id": "6179f365375142269800962dd7d670ce"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.346167002571747,
+      "error": null,
+      "request_id": "0e6bd8fe73f74b5f90b6d859a793118e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.895334004308097,
+      "error": null,
+      "request_id": "aa764ad52f5d49ed9837541659e91c64"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.29108298686333,
+      "error": null,
+      "request_id": "bce9377dd19a4eb38cf4ddf8f40b2308"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.359249993111007,
+      "error": null,
+      "request_id": "754616aeb6354067b286065e8e33062a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.471083000302315,
+      "error": null,
+      "request_id": "c0fde4a004d74daf8b5bcd1bac560215"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.312374996137805,
+      "error": null,
+      "request_id": "bc86a5abfc1d48a2a84c4109fff10c5e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.053041997016408,
+      "error": null,
+      "request_id": "ec382f829a59487fac0b8df7e610433c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.8491670016665,
+      "error": null,
+      "request_id": "ba780753583a4d4fb08e4983c3981f6d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.514749998459592,
+      "error": null,
+      "request_id": "0bc1261e82f24129ab1a9dee3e869b16"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.54104098735843,
+      "error": null,
+      "request_id": "893aeac258604efca9e69e297d0e3269"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.522958006244153,
+      "error": null,
+      "request_id": "be5150e9b8964d32bb606286e6a85652"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.510334001504816,
+      "error": null,
+      "request_id": "e7328f9e7d0f411ab7d17303dcb2dbd8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.41020899580326,
+      "error": null,
+      "request_id": "99397518a183435f982c82ee52bddddf"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.315125006367452,
+      "error": null,
+      "request_id": "99aa3f7bf0f841dc86a4e909a59d399c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.16920900880359,
+      "error": null,
+      "request_id": "d67accc6a9ae4dfcb150bffa381ed2f4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.034666991909035,
+      "error": null,
+      "request_id": "82189818952545c2b778c4bec108128e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.91462499811314,
+      "error": null,
+      "request_id": "4b43b651d0084375afababd22ca2f4fd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.779833997949027,
+      "error": null,
+      "request_id": "3f1abc2028914228b7e911ec98377ad0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.66749999357853,
+      "error": null,
+      "request_id": "c58725185545432f87ab54155b9ee6f0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.07074999366887,
+      "error": null,
+      "request_id": "2c535bace6794f789f8dd72e247b0ec3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.15162499831058,
+      "error": null,
+      "request_id": "bfb2224bc8644ca8ad40a202fae5d8f6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.14974999858532,
+      "error": null,
+      "request_id": "a52c22cc9d684719a2b4591d362b250a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.15033300651703,
+      "error": null,
+      "request_id": "7e481de2e3d645c69d325a1e3153a760"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.176166002987884,
+      "error": null,
+      "request_id": "82d07cc770254468996712188f0bf558"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.088749999762513,
+      "error": null,
+      "request_id": "18ec4a73160a403c89eec4dc45cb4234"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.095666001201607,
+      "error": null,
+      "request_id": "4dddf65de47c48a8b15c040c6ef8d09d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.12004198716022,
+      "error": null,
+      "request_id": "424ba7b0c2744c55bc37ac9d1dd63edc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.850000000791624,
+      "error": null,
+      "request_id": "5713ba45a9fa4821871f1431db5d4ba1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.665083997300826,
+      "error": null,
+      "request_id": "24dd9dae2d744fcfada4d64d1523b7c0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.524874998955056,
+      "error": null,
+      "request_id": "ee02d14619424151852eaa82b653d2b9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.33216701238416,
+      "error": null,
+      "request_id": "168b3056025f4a5db86448680ee5ffa5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.16029199876357,
+      "error": null,
+      "request_id": "8f771b1cc824400f836249438653eafe"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.058249996509403,
+      "error": null,
+      "request_id": "626a39a6d8d14468a19acf53b045c626"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.503875009831972,
+      "error": null,
+      "request_id": "8d083fd5e0f844e69b7188f6681b230f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.74170899868477,
+      "error": null,
+      "request_id": "e2c2ff8a9a554c10b92686f867da4b2c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.577417002641596,
+      "error": null,
+      "request_id": "34d94ed119ce462489042eae240f9b31"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.577958003035747,
+      "error": null,
+      "request_id": "d2039fbed5f148e6a4d682f9bc777c70"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.47937500558328,
+      "error": null,
+      "request_id": "488dab4c4a434e4894008474ff7ccbd8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.348791997297667,
+      "error": null,
+      "request_id": "49201c8fe0eb4412ae807b011425041b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.152333996724337,
+      "error": null,
+      "request_id": "218751c946644b6d8b0eff0e4ec6556d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.045667002908885,
+      "error": null,
+      "request_id": "9f6d365adedb4606a193428f6307dd62"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.94645900069736,
+      "error": null,
+      "request_id": "5d89f4fbc6ad4463bf4df1779c1a0a28"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.822042002691887,
+      "error": null,
+      "request_id": "e8701f7a1753468fa7731661c9d523ab"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.630040991818532,
+      "error": null,
+      "request_id": "29b29b9468e64ce2bb13c1ad6cc86e42"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.52029100013897,
+      "error": null,
+      "request_id": "41f824d7bbbc44509a11f479461258c1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.389500005170703,
+      "error": null,
+      "request_id": "ba3be410901c4558920f768a55e2e291"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.21462499781046,
+      "error": null,
+      "request_id": "2193a8bd4fa24c9d93f2e82514aa9fbc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.346791996620595,
+      "error": null,
+      "request_id": "e2053a1a8da04fb685d49ee2829b2af9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.17795799858868,
+      "error": null,
+      "request_id": "2dcf942d433744e0922d906cbfd4517c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.06029199785553,
+      "error": null,
+      "request_id": "8864958028394fdeb5cc5b920ceef3da"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.89841599809006,
+      "error": null,
+      "request_id": "e72fbe36f6524f12bf484abc7ec36c89"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.697915999335237,
+      "error": null,
+      "request_id": "e79559db008a46eba3cca1881dc27ff7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.413249996840023,
+      "error": null,
+      "request_id": "b79aede486e24e8abda95b20039b9fe5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.373875002609566,
+      "error": null,
+      "request_id": "076e76a460b24b66b7ce48f662454d4a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.417916999780573,
+      "error": null,
+      "request_id": "415cd868741644918db21773d19fbe88"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.462332995724864,
+      "error": null,
+      "request_id": "50297db67b9b4f46a04750c5ff5bc891"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.36554200842511,
+      "error": null,
+      "request_id": "6bfc07789cfd44f4b9cd003ed6e72c57"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.269707998726517,
+      "error": null,
+      "request_id": "20ffab6065584245b613a7c5c6378333"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.93054199940525,
+      "error": null,
+      "request_id": "e948f158b962405cb76cba0c648ecb4b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.939250010997057,
+      "error": null,
+      "request_id": "1be8146a35964d75882452b34fe65752"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.90141699591186,
+      "error": null,
+      "request_id": "c45a1b2d99a843d183a1efc228612a36"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.8672090084292,
+      "error": null,
+      "request_id": "27abfe9c28744d1291044d69431752b7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.729791998746805,
+      "error": null,
+      "request_id": "8d8a55c07f404a9e8d42c61a26ead0c8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.572458000970073,
+      "error": null,
+      "request_id": "3e3740499d434baa92e4927e2858b1d2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.411540986970067,
+      "error": null,
+      "request_id": "553509e96d614887b49cc8a4a1f13103"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.231167000019923,
+      "error": null,
+      "request_id": "6b0f2f9138184636a4f3fbd8865645e4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.119916007388383,
+      "error": null,
+      "request_id": "54d918b4ba3a4124a69886157650c687"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.014540990814567,
+      "error": null,
+      "request_id": "fcb6717297e2410abae22d123d461bda"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.904208995285444,
+      "error": null,
+      "request_id": "9162ed410e644f1e8953c2e16d70618a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.963832997949794,
+      "error": null,
+      "request_id": "a21b0820c70046439190b7c2c16ea1d5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.82887500000652,
+      "error": null,
+      "request_id": "141241589e98428c934ea2d9cab1900f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.833457994740456,
+      "error": null,
+      "request_id": "2dd9b7491d924f3ba3eb1377ca719d26"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.815666997805238,
+      "error": null,
+      "request_id": "ef5e72f1bb314381a72f8ad0dd56ce24"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.840708006289788,
+      "error": null,
+      "request_id": "48c1eb8553d140f98277601e17ae2b7e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.267375006573275,
+      "error": null,
+      "request_id": "b45993ea5f084997bc9519f6940e6fd5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.18962501117494,
+      "error": null,
+      "request_id": "0bed36e4b9c24387a90cd3de0d91a383"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.111458001541905,
+      "error": null,
+      "request_id": "b27df1832e6e4a498059bd794ac1720d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.826541003771126,
+      "error": null,
+      "request_id": "e1b3125300f543df9187637e5a4579b7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.697665997431614,
+      "error": null,
+      "request_id": "fe5d70a344fc4ca19a0e6e5a78d2a5fc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.513583993306383,
+      "error": null,
+      "request_id": "8230127db58340028a1d958bcbbc379f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.35950000572484,
+      "error": null,
+      "request_id": "f9ed187a74ad4dfc8a4312ce4e554d33"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.254667004337534,
+      "error": null,
+      "request_id": "cd08b3cbb81340ec9c295d3e7054f039"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.090292004169896,
+      "error": null,
+      "request_id": "7e9d3af578b24b7a9029b39a9cec5cd4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.240000001853332,
+      "error": null,
+      "request_id": "309fb1a05b504d97a88b564546d0ca48"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.03583399730269,
+      "error": null,
+      "request_id": "50df92ccffaa4bd5bd7d05b5857dfd94"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.21816600265447,
+      "error": null,
+      "request_id": "09fdfc7d85264625b2c6269f40ec6d82"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.76975000090897,
+      "error": null,
+      "request_id": "e8e79b0bbdef479e80a12e79a06fa8eb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.750292009324767,
+      "error": null,
+      "request_id": "6dc866e290264a1a9237e0ca3d7e67b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.698667009128258,
+      "error": null,
+      "request_id": "ec873c978d954b33b31bbc514bf433b1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.684791001258418,
+      "error": null,
+      "request_id": "22e362c558a74b29a402358f994d1db8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.527458007563837,
+      "error": null,
+      "request_id": "d32da2c609eb4937a955a4db55df0120"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.43008300825022,
+      "error": null,
+      "request_id": "179cc096c13c491591b5ff58698c111b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.326583995483816,
+      "error": null,
+      "request_id": "d65492c2f7a9484da0c8d705bc5735f3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.23370900133159,
+      "error": null,
+      "request_id": "d9015786f96146768319ceba6f44f4e6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.16208300483413,
+      "error": null,
+      "request_id": "893f81c40b5d4050bb23820227855ca4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.888041995931417,
+      "error": null,
+      "request_id": "7770bdafa2a34479aacb3d5e292a4ab9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.731333002913743,
+      "error": null,
+      "request_id": "b00580e7fbee463f98988286da937646"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.466750007472,
+      "error": null,
+      "request_id": "efc8e6fe5e454822b071844670a32132"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.23779098817613,
+      "error": null,
+      "request_id": "3f44f106df584845b24e490871d8f05f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.099916000617668,
+      "error": null,
+      "request_id": "f75cfe1c299548ecaaa5630e51c806ba"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.953708004322834,
+      "error": null,
+      "request_id": "3fd3f418beeb43e2818035ba2e0e02f4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.80245899176225,
+      "error": null,
+      "request_id": "ffe5f33eeabf46a583317e6d943afe68"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.93179199437145,
+      "error": null,
+      "request_id": "3bd2e2fb036d40d8bf1d5b5c62bad777"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.918458001688123,
+      "error": null,
+      "request_id": "9bf2f03e6e6d4861b5786e355bef81c6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.92941600130871,
+      "error": null,
+      "request_id": "58e73d59495c428ba4077656b637aef9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.789249989320524,
+      "error": null,
+      "request_id": "25eed2f3917e4bf6ab5c0eb9c669731d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.685334005975164,
+      "error": null,
+      "request_id": "bd244a0887b043a38e30375776d24fec"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.574166002916172,
+      "error": null,
+      "request_id": "49021b190fc44445a18adc1b0595d2c2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.095749994856305,
+      "error": null,
+      "request_id": "9f33fa273dba43c084303a4965ae30e9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.116417003213428,
+      "error": null,
+      "request_id": "5f704c6af88646cd9c8bd77605124a08"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.07162500033155,
+      "error": null,
+      "request_id": "04aaaf1c349c4f55a24817b0e84b36a3"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.88529200409539,
+      "error": null,
+      "request_id": "2a620a255fbe4743969fb3d32be0fc2f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.04337500350084,
+      "error": null,
+      "request_id": "a95fb2b95f224525a1a7ba446f8deea9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.896083995467052,
+      "error": null,
+      "request_id": "bf6dadfd4b8940abbf96077d78bf18c5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.72849999240134,
+      "error": null,
+      "request_id": "7b5599a68ebf4009baed938ac3fb7028"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.609250001143664,
+      "error": null,
+      "request_id": "6c84ec210a5344a98c485aab4c29746a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.479208003962412,
+      "error": null,
+      "request_id": "cdb4752717144cc88bb62e06a6630f1f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.382999995490536,
+      "error": null,
+      "request_id": "98e0ce0c9276478aa1a675e66ded0e82"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.28325000719633,
+      "error": null,
+      "request_id": "46619646e9934710b0db6513fdf346fa"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.221166008734144,
+      "error": null,
+      "request_id": "61fef8404aab4233aaeebd2f52cbceed"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.28991699789185,
+      "error": null,
+      "request_id": "7880bd83e1234bdaa901aeccd1ff5d44"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.358084004139528,
+      "error": null,
+      "request_id": "df56c427611c438aa89a6f38b5b11a73"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.437666012905538,
+      "error": null,
+      "request_id": "f704dc92c00f4f619ffe852811b50452"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.42233399860561,
+      "error": null,
+      "request_id": "4cc28b566dc94f2794a1513d4ed92af5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.81183300248813,
+      "error": null,
+      "request_id": "0361dc7415074b018aef8c2060e9dff8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.793165994808078,
+      "error": null,
+      "request_id": "66ce30830bfb4e55a8a2612a6087853e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.763833990320563,
+      "error": null,
+      "request_id": "0a8208bd6a824bbc91ade3d9fa7a417d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.87249999528285,
+      "error": null,
+      "request_id": "00153efd80a64d0ba31b1354772ccc91"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.71062499959953,
+      "error": null,
+      "request_id": "dd1b350f39ee42ae9ad53ee75f98fca2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.486042003147304,
+      "error": null,
+      "request_id": "9715974b3c7c424d9b881c2b153956bc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.378708007745445,
+      "error": null,
+      "request_id": "a3d8930f66b04afda62e557a47fe5cbc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.20820900867693,
+      "error": null,
+      "request_id": "4a202be8e25d41068c9c8b302c0178db"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.06649999890942,
+      "error": null,
+      "request_id": "2b90e8ab2e5e4c2f87c7fda9b674573f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.797875005286187,
+      "error": null,
+      "request_id": "44bdcdbcac3a4a1680af34e07ddb53ef"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.674709006329067,
+      "error": null,
+      "request_id": "1766c66186c642babd513d7665625e5a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.995291995466687,
+      "error": null,
+      "request_id": "63cf25cf1d5c4d42bb61c164e5f48f08"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.15904200542718,
+      "error": null,
+      "request_id": "ee25494c9f8547ff9da9dc9675c9ac94"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.155082996818237,
+      "error": null,
+      "request_id": "64f0db33b10844e48a46dd103d808a8c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.171291007311083,
+      "error": null,
+      "request_id": "57218a4d738c493db5bbad93bfa0f7fb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.844707990880124,
+      "error": null,
+      "request_id": "e21a64c7820744efa2d02c07af793d91"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.628916010144167,
+      "error": null,
+      "request_id": "84b5c8eac7bc442886a1b4123aa3f395"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.509083010954782,
+      "error": null,
+      "request_id": "4ed4a1a8aa974fda8e5268d3e24ce36a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.409834001446143,
+      "error": null,
+      "request_id": "dfc34bee7cbd405ba0484bb607926dfe"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.289083009236492,
+      "error": null,
+      "request_id": "03d80cff81504bddb6cff17a5f0576bc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.166625004610978,
+      "error": null,
+      "request_id": "f31ea5e3973346bcb42fa27389c670d1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.855749998707324,
+      "error": null,
+      "request_id": "43a6f29fd590419e9e01433798ec24e6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.645166002912447,
+      "error": null,
+      "request_id": "279d1175a20f4529baddf373e6f56036"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.509249994182028,
+      "error": null,
+      "request_id": "791e30bf5d3e42d882b9053f8a1b0ef7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.41887500451412,
+      "error": null,
+      "request_id": "574499eb7fe2430cb84d617bd2ee1a9f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.909707991057076,
+      "error": null,
+      "request_id": "bf92dcd50b4b49beb7cb78a0b873e606"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.800666997791268,
+      "error": null,
+      "request_id": "48b0742225094d5dada1e5dca9fc9e08"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.621625005849637,
+      "error": null,
+      "request_id": "8845aec62bc942479b4bd205b6c5de91"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.996374992653728,
+      "error": null,
+      "request_id": "53239785e129431aa24a8c184b38d8ec"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.971458999672905,
+      "error": null,
+      "request_id": "ab6fc839187d429d83e5d1d38839bcd6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.936375001445413,
+      "error": null,
+      "request_id": "5df2ba1244e84eaba94a15fae15b91cf"
+    },
+    {
+      "status": 200,
+      "latency_ms": 28.005624990328215,
+      "error": null,
+      "request_id": "7484ac1751784082ae97c13edee6bb17"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.912249992368743,
+      "error": null,
+      "request_id": "af938324fe93460e94d8dda9061fb011"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.814707995275967,
+      "error": null,
+      "request_id": "3b9489faedee47e99e9c25dd9ebbc59a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.83070800069254,
+      "error": null,
+      "request_id": "243f4d1c5ee14d298b3e0f6d3973ac37"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.797250004368834,
+      "error": null,
+      "request_id": "556da830a06844fc8fba5d44cd1865f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.755250004702248,
+      "error": null,
+      "request_id": "ecc0808d9880478a9465387fed080f43"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.827790996525437,
+      "error": null,
+      "request_id": "64929f1665f54caeb185ec147d5b7b53"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.639542007818818,
+      "error": null,
+      "request_id": "96089484b72d4a1b8dff8e461c430106"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.485707993037067,
+      "error": null,
+      "request_id": "d68f6f18bd0b4afa8044c0ac3ff459fd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.291208010865375,
+      "error": null,
+      "request_id": "343f3a3fe7a8407ab90cbd783c9269d5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.143041996168904,
+      "error": null,
+      "request_id": "df8ac2d4c07b47749c77eeaadc7642a4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 27.017708009225316,
+      "error": null,
+      "request_id": "b298c97c178449649590e344bf64709a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.89220799948089,
+      "error": null,
+      "request_id": "e0060619586b460494debb0d88c52da1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 26.781958993524313,
+      "error": null,
+      "request_id": "bf6a9ef1678b4c57a8b6cae809dcbb15"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.99050000833813,
+      "error": null,
+      "request_id": "d3a75ae6826141bf8a760a903ed98902"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.877332994132303,
+      "error": null,
+      "request_id": "78cf6494822749e1b874d36a15dfeaa6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.837165997363627,
+      "error": null,
+      "request_id": "9dffd7b384c84b23ac36def5d09de51c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.5611669953214,
+      "error": null,
+      "request_id": "ed2cc2f1e16843a9b812391c1cb8d54a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.764625005540438,
+      "error": null,
+      "request_id": "19126c87add54628bd60fc0a1806b571"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.831917005125433,
+      "error": null,
+      "request_id": "e53d5f6ce3064423a6e933be55229b18"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.806667002034374,
+      "error": null,
+      "request_id": "f9aeb292c6394c27bb53c990eb8062b2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.763791995705105,
+      "error": null,
+      "request_id": "e58e680c6f174983822883a272cb4798"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.476500008953735,
+      "error": null,
+      "request_id": "939214d697464cceb7c28fc5bae4edc1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.290957996621728,
+      "error": null,
+      "request_id": "b57f45bf54b64d35bfeddef289c7779d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.12208399537485,
+      "error": null,
+      "request_id": "ec1648bbe6ea43dfb55bb7ece34717b9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.9031669908436,
+      "error": null,
+      "request_id": "0850481c8de94d2ab24d0bf7454bf79c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.737250011530705,
+      "error": null,
+      "request_id": "cad4989628e14f65897a9e90fa7e9fee"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.57350000157021,
+      "error": null,
+      "request_id": "d6ba7cd5077e450eb676adf842ac6ea6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.639042006223463,
+      "error": null,
+      "request_id": "3b1fb8adec9a477d9437ae448e47bbb4"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.451333999517374,
+      "error": null,
+      "request_id": "b15aa0b4e10f44d4b0ac14892dabab3d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.2542920014821,
+      "error": null,
+      "request_id": "2eeae7bb2c464d05a373c1be5aa29f8a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.58645899523981,
+      "error": null,
+      "request_id": "120b76bf28364251b72ca9330278eb76"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.52400000684429,
+      "error": null,
+      "request_id": "193cc7ed08e64fa2b6fe9d0566bc2dc2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.483166998019442,
+      "error": null,
+      "request_id": "ddb10cb8d22740e8a85e06d2d04ff5be"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.299208001233637,
+      "error": null,
+      "request_id": "da127780fe0f48b385c6d5aebf5b0568"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.200500002829358,
+      "error": null,
+      "request_id": "ef76d662d7a046ed905243c25062d4bb"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.10254201013595,
+      "error": null,
+      "request_id": "20e0ee13d18a41ad95fb6abe32ae1a3c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.008832987514324,
+      "error": null,
+      "request_id": "a95b851431a04cad8f4f2de4bbb10b1b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.907875001081266,
+      "error": null,
+      "request_id": "3712c233aeb94b8db437cacf61751ead"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.785541997407563,
+      "error": null,
+      "request_id": "ccc254b6dc694dbe8e86fbfa500be088"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.49579100275878,
+      "error": null,
+      "request_id": "4a33b3060d60450280fee2d3a19ba032"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.329958002548665,
+      "error": null,
+      "request_id": "c595c85f391546a4bb298424d6a7e573"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.218042001943104,
+      "error": null,
+      "request_id": "3de625ac74084f4f9868f99826a9e8d5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.63812500273343,
+      "error": null,
+      "request_id": "157be2d7764c4e52bcf8218475740952"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.39637499547098,
+      "error": null,
+      "request_id": "bc2762482d8e4c87aacc319e8b5d51b2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.164667002973147,
+      "error": null,
+      "request_id": "4cd2c92a7ca546c69f1ea9394890f54d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.01370799553115,
+      "error": null,
+      "request_id": "c8d86ada2d7b42c788c48d0f5ac2caa2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.55895800003782,
+      "error": null,
+      "request_id": "cc09b9f08e094f099b56e50e1ba272fc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.555124996462837,
+      "error": null,
+      "request_id": "adf85b96e94f4cdfb328af15d577b791"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.409959004609846,
+      "error": null,
+      "request_id": "04e51e4d5f1042f0a68ae5c998a335c6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.226957989507355,
+      "error": null,
+      "request_id": "64d82c94cc8248628da759d3c338739a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.489457994699478,
+      "error": null,
+      "request_id": "4d4f77a94af44d529014bc5cb9a96a4e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.39495899225585,
+      "error": null,
+      "request_id": "698e8beec21b42f19555427c4c5e24ed"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.01333299651742,
+      "error": null,
+      "request_id": "aa4732c11db64b268dfef01607d49230"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.04795900231693,
+      "error": null,
+      "request_id": "f891481e5522403f8414dad009038f1a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.03954199992586,
+      "error": null,
+      "request_id": "38ba093924a5472098d6c18d0467582d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.03516599163413,
+      "error": null,
+      "request_id": "01045f1f8f5a42eb8283db727d3428d5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.93429199885577,
+      "error": null,
+      "request_id": "08e2c853284b4b48912224b91b83ee7c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.834291994106025,
+      "error": null,
+      "request_id": "b68879835ecd48de99040068424d28ee"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.7273330015596,
+      "error": null,
+      "request_id": "d886317ea1f54860b7a8b6c2bab7216a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.629249993362464,
+      "error": null,
+      "request_id": "c1e35f995d1647b99848929516ea2446"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.527291009784676,
+      "error": null,
+      "request_id": "fa2ba1930039442fb50e62ee6268bbc8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.389666999108158,
+      "error": null,
+      "request_id": "2b7c9baf0a1349208b6abdb1c76537f7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.242500002495944,
+      "error": null,
+      "request_id": "16599ed0ebf0410883af9c3674c80892"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.911958010401577,
+      "error": null,
+      "request_id": "48852895042349f0a1f9f1ad4b77c561"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.040042003733106,
+      "error": null,
+      "request_id": "914ce14c4a024bc1a40a4af4fe5370ad"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.01795800263062,
+      "error": null,
+      "request_id": "d5bf633a071243a2a01018c3498e910f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.040667008492164,
+      "error": null,
+      "request_id": "aea32be6d30f4a879b492fc40831f97b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.065958004328422,
+      "error": null,
+      "request_id": "0ad5717c8cf24083949c7fda1d10bf0f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.16720800404437,
+      "error": null,
+      "request_id": "0ebbe847ab5143159bdbf623c261e3dd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.13808400463313,
+      "error": null,
+      "request_id": "f498682196ef4f7a944cb6dae7a739d8"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.070917005999945,
+      "error": null,
+      "request_id": "d056c98bb1924421aea4f64f121cc8fd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.144375001313165,
+      "error": null,
+      "request_id": "51efba5b4e2b4968a4a72becfc308635"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.955250001861714,
+      "error": null,
+      "request_id": "4a3b1c7439db41e5aaa6fbaa946a840d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.825334009714425,
+      "error": null,
+      "request_id": "92d73ec0faa849648f6648af6ad85461"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.698709005955607,
+      "error": null,
+      "request_id": "d25db3d8b29f4523a377bd2ad12f4bf7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.56641600211151,
+      "error": null,
+      "request_id": "ba4f9e793e2744349fb34003147fc13c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.442542008822784,
+      "error": null,
+      "request_id": "316aa83aa64445e388fd2867b3e9144c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.23012499557808,
+      "error": null,
+      "request_id": "abb432b35db44486b543dd943e5ce808"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.23608300462365,
+      "error": null,
+      "request_id": "a3419f819d1c4e83ac9767baf894af3c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.055165998404846,
+      "error": null,
+      "request_id": "220ed25b89ea4f959f8a084ee5eb6ee5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.132416994078085,
+      "error": null,
+      "request_id": "c515659a8b4c4b2f823d83569fd94d7e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.07524999883026,
+      "error": null,
+      "request_id": "27e020af37fc43a3bfdb1ad8ce61b244"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.98795799247455,
+      "error": null,
+      "request_id": "eda676ce00b54f8fa5df8adc0d0561f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.036249992903322,
+      "error": null,
+      "request_id": "b33a9bbbdbb8489b96bc2e2f2764499b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.934165993821807,
+      "error": null,
+      "request_id": "252802a971fa4fe9b419797106e5fd98"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.82775000599213,
+      "error": null,
+      "request_id": "f4613516222645aea5e02f27bf059b04"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.7303749921266,
+      "error": null,
+      "request_id": "dcfe1d8d9e0e431492f600df87aa0320"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.62708299490623,
+      "error": null,
+      "request_id": "3159a2f0b0294d7cbad03d0f552e9c41"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.515665994025767,
+      "error": null,
+      "request_id": "0ebcb764c49c4b91b5faeebe518768f2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.31258300121408,
+      "error": null,
+      "request_id": "4952fb9370f74698a3e6e4d16c8919dd"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.92329198785592,
+      "error": null,
+      "request_id": "c9bc3976144242388dd4bb773ff3f1db"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.787999994354323,
+      "error": null,
+      "request_id": "6e28ff5ce48b420bb8ad0ef7fc8caa8c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.538625001790933,
+      "error": null,
+      "request_id": "ed0f4cd7f5374dab88b9f85d37c9e2e5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.288166007958353,
+      "error": null,
+      "request_id": "390b630e0fcd46a19b43e69028985acf"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.149749994743615,
+      "error": null,
+      "request_id": "a8b4ca6f9eb348e6a195c7a4eda59ac6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.02708299551159,
+      "error": null,
+      "request_id": "f0545926a0514cc485bca5902d7d78c7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.49745800124947,
+      "error": null,
+      "request_id": "ef419936bfd74385ad9d6b60861f4e0a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.33616698847618,
+      "error": null,
+      "request_id": "21fec67c8e1e424c835b9fbdf2eefb8b"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.241292008198798,
+      "error": null,
+      "request_id": "345623b5bed14b998a3bbb9afc91de7f"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.15133299957961,
+      "error": null,
+      "request_id": "e08da59b35ee45ad9a67a9c3d9062ce9"
+    },
+    {
+      "status": 200,
+      "latency_ms": 21.040958003140986,
+      "error": null,
+      "request_id": "cc6f16abc3f245078f5fd7fb731cc4b0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.98775000195019,
+      "error": null,
+      "request_id": "24e0419540cf4d1abba738ed2126d69c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.811417009099387,
+      "error": null,
+      "request_id": "24675c8f26d3458a93e7314ecc345832"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.582457989803515,
+      "error": null,
+      "request_id": "f0f659cc017d4fe4a8a1fbfbd1fcb30c"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.392167003592476,
+      "error": null,
+      "request_id": "d92020e1d3b74951aad370151f9dea55"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.194917000480928,
+      "error": null,
+      "request_id": "b2074e16da2e4c69b2142904a8c6bc41"
+    },
+    {
+      "status": 200,
+      "latency_ms": 20.09166700008791,
+      "error": null,
+      "request_id": "bbd48ed798c848a9b26170174c61c3c2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.988708998425864,
+      "error": null,
+      "request_id": "26e0539ded764d349d7d7b27e6c51bf0"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.798292007180862,
+      "error": null,
+      "request_id": "25761fc72ee74ad9b0f329131bf40df5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.66112499940209,
+      "error": null,
+      "request_id": "6b3a74f95b5b43c0a0ab7a4008972266"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.48045799508691,
+      "error": null,
+      "request_id": "e2857cf8c7b947829e08bae569d444a1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.384459010325372,
+      "error": null,
+      "request_id": "7827164294ae4b0d8ad9cb3f2664dc20"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.30625000386499,
+      "error": null,
+      "request_id": "2839e190b4dc46ad867b6f66627ac057"
+    },
+    {
+      "status": 200,
+      "latency_ms": 19.4674579979619,
+      "error": null,
+      "request_id": "8d5542a9a3704263b9b53f41474ccf81"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.142999993870035,
+      "error": null,
+      "request_id": "ad9f6595b3c94b2eadcf3a114d7c0f65"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.950916997506283,
+      "error": null,
+      "request_id": "5ea275e527874809b020cea00eddcd5d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.71516700682696,
+      "error": null,
+      "request_id": "317f692140034b93850414d11dce7fa7"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.51749998948071,
+      "error": null,
+      "request_id": "09c5fa45b7cf4c3f9f2df7e68343a3f5"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.6998749995837,
+      "error": null,
+      "request_id": "2ae47ab05da74f528cde347adff9113e"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.537833006121218,
+      "error": null,
+      "request_id": "8c97caa27e8c4539abfd2ae3f81a4552"
+    },
+    {
+      "status": 200,
+      "latency_ms": 18.32020799338352,
+      "error": null,
+      "request_id": "e4d127cb35674d039a4aa1f1366b53c1"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.989416999625973,
+      "error": null,
+      "request_id": "4c3d006e25f041778b11de7a6f429064"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.752542000380345,
+      "error": null,
+      "request_id": "965575f9c6104ef0a5a7ec77412caf98"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.641707992879674,
+      "error": null,
+      "request_id": "ea160524633d4f749601e662cdbd2459"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.494917003205046,
+      "error": null,
+      "request_id": "84a154638d624c518c5bba95819d39ca"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.33254200371448,
+      "error": null,
+      "request_id": "b28ff95c5659432c82961ee69c9d77f2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.223167000338435,
+      "error": null,
+      "request_id": "66b423a68ef744e18149d6bcf98159b2"
+    },
+    {
+      "status": 200,
+      "latency_ms": 17.039124999428168,
+      "error": null,
+      "request_id": "ee644951e7a94310b5595683a7899702"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.875875007826835,
+      "error": null,
+      "request_id": "f50eb458d8d44fa6bbb91a9b3d914fea"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.792666996479966,
+      "error": null,
+      "request_id": "ceb0da68785f46df9dff1b4105a4825d"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.75812499888707,
+      "error": null,
+      "request_id": "52ee7fb6320041428f197360ce70ce49"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.625958000076935,
+      "error": null,
+      "request_id": "9476f3a73e8e466490205b250991b75a"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.464833010104485,
+      "error": null,
+      "request_id": "0897e68ea64c4cd3a8ab8b9a3f56f670"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.17787500435952,
+      "error": null,
+      "request_id": "7d68a5b33f45402db758c40fd3fa3353"
+    },
+    {
+      "status": 200,
+      "latency_ms": 16.016915993532166,
+      "error": null,
+      "request_id": "e1f895ae455d4282b20dccf9670e0025"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.91304199246224,
+      "error": null,
+      "request_id": "60426ad09f2747859c72caa7007b61b6"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.826584000024013,
+      "error": null,
+      "request_id": "a4f32ee5913248a384e0a81040cc72bc"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.720042007160373,
+      "error": null,
+      "request_id": "115fb5aa6e3649be8123435be85c0256"
+    },
+    {
+      "status": 200,
+      "latency_ms": 15.647042004275136,
+      "error": null,
+      "request_id": "d74f294dff3d4e0693fe6db281be85f5"
+    }
+  ]
+}

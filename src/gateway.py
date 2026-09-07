@@ -27,10 +27,8 @@ from pydantic import BaseModel, ValidationError
 from src.redis_mock import RedisMock
 from src.virtual_vram_batcher import VramBuffer
 
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ALLOWED_IPS = {"127.0.0.1", "::1", "localhost"}
-
 
 def _load_env_file() -> None:
     env_path = PROJECT_ROOT / ".env"
@@ -45,7 +43,6 @@ def _load_env_file() -> None:
         key, value = [part.strip() for part in line.split("=", 1)]
         if key and value and key not in os.environ:
             os.environ[key] = value.strip('"').strip("'")
-
 
 def load_runtime_settings() -> dict[str, Any]:
     _load_env_file()
@@ -67,29 +64,22 @@ def load_runtime_settings() -> dict[str, Any]:
         "debug_mode": os.getenv("DEBUG_MODE", "False").lower() in {"1", "true", "yes", "on"},
     }
 
-
 RUNTIME_SETTINGS = load_runtime_settings()
 ALLOWED_AGENT_KEYS = RUNTIME_SETTINGS["allowed_agent_keys"]
 
 rate_limiter = RedisMock()
-# Use the repository `data/` directory for approved/quarantine outputs by default
-vram_buffer = VramBuffer(storage_root=PROJECT_ROOT / "data")
-
+from pathlib import Path as _Path
+# Use the repository data/ directory for approved/quarantine outputs by default
+vram_buffer = VramBuffer(storage_root=_Path.cwd() / "data")
 
 def get_allowed_agent_keys() -> set[str]:
-    # Return the precomputed set loaded at module import time to avoid
-    # re-reading files or environment variables on every request. Calling
-    # `load_runtime_settings()` per-request caused synchronous file I/O
-    # and contributed to latency tail spikes under high concurrency.
-    return ALLOWED_AGENT_KEYS
-
+    return load_runtime_settings()["allowed_agent_keys"]
 
 def _load_inbound_schema() -> dict[str, Any]:
     schema_path = PROJECT_ROOT / "config" / "inbound_schema.json"
     if not schema_path.exists():
         raise FileNotFoundError(f"Inbound schema not found at {schema_path}")
     return json.loads(schema_path.read_text(encoding="utf-8"))
-
 
 def validate_payload_against_inbound_schema(payload: Any) -> None:
     if not isinstance(payload, dict):
@@ -167,7 +157,6 @@ class IngestRequest(BaseModel):
     equipment_id: str
     payload: dict[str, Any]
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await rate_limiter.start()
@@ -179,9 +168,7 @@ async def lifespan(app: FastAPI):
         vram_buffer.shutdown()
         await rate_limiter.stop()
 
-
 app = FastAPI(title="Agent Gateway", lifespan=lifespan)
-
 
 @app.middleware("http")
 async def telemetry_middleware(request: Request, call_next):
@@ -202,25 +189,10 @@ async def telemetry_middleware(request: Request, call_next):
             "latency_ms": latency_ms,
             "client_ip": client_ip,
         }
-        # Offload file writes to the default thread pool executor so that
-        # request processing isn't delayed by synchronous disk I/O. This
-        # reduces tail latency when many concurrent requests are being
-        # processed.
         telemetry_path = PROJECT_ROOT / "logs" / "telemetry.log"
         telemetry_path.parent.mkdir(parents=True, exist_ok=True)
-
-        def _sync_write(entry: dict[str, Any], path: Path) -> None:
-            with path.open("a", encoding="utf-8") as handle:
-                handle.write(json.dumps(entry, sort_keys=True) + "\n")
-
-        try:
-            loop = asyncio.get_running_loop()
-            loop.run_in_executor(None, _sync_write, telemetry_entry, telemetry_path)
-        except RuntimeError:
-            # If no running loop is available, fall back to synchronous write
-            # (best-effort — this should be rare in normal operation).
-            _sync_write(telemetry_entry, telemetry_path)
-
+        with telemetry_path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(telemetry_entry, sort_keys=True) + "\n")
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError) -> JSONResponse:
@@ -233,7 +205,6 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
     _write_quarantine_payload(payload)
     return JSONResponse(status_code=422, content={"detail": "Validation error"})
 
-
 @app.post("/ingest")
 async def ingest(request: Request, payload: IngestRequest) -> JSONResponse:
     client_ip = request.client.host if request.client else "unknown"
@@ -243,11 +214,20 @@ async def ingest(request: Request, payload: IngestRequest) -> JSONResponse:
     if not agent_key or agent_key not in allowed_keys or client_ip not in ALLOWED_IPS:
         return JSONResponse(status_code=403, content={"detail": "Forbidden"})
 
+    # --- SURGICAL FIX: Unwrap the payload before schema validation ---
+    validation_dict = {
+        "agent_key": agent_key or "",
+        "equipment_id": payload.equipment_id,
+    }
+    if isinstance(payload.payload, dict):
+        validation_dict.update(payload.payload)
+
     try:
-        validate_payload_against_inbound_schema(payload.model_dump())
-    except ValueError:
-        _write_quarantine_payload(payload.model_dump())
-        return JSONResponse(status_code=422, content={"detail": "Validation error"})
+        validate_payload_against_inbound_schema(validation_dict)
+    except ValueError as e:
+        _write_quarantine_payload(validation_dict)
+        return JSONResponse(status_code=422, content={"detail": f"Validation error: {e}"})
+    # ----------------------------------------------------------------
 
     breach = await rate_limiter.check_breach(payload.equipment_id, payload.payload)
     if breach:
@@ -268,25 +248,22 @@ async def ingest(request: Request, payload: IngestRequest) -> JSONResponse:
 
     return response
 
-
 async def _read_request_payload(request: Request) -> Any:
     body = await request.body()
     if not body:
         return {}
-
     try:
         return json.loads(body.decode("utf-8"))
     except (UnicodeDecodeError, json.JSONDecodeError):
         return {"raw_body": body.decode("utf-8", errors="replace")}
 
-
 def _write_quarantine_payload(payload: Any) -> None:
     now = datetime.utcnow()
-    # Enforce repository-root `data/` as the single physical storage location
+    # Enforce repository-root data/ as the single physical storage location
     # for quarantine files. No fallback to package-local paths is allowed.
-    preferred_dir = PROJECT_ROOT / "data" / "quarantine" / "structural"
+    preferred_dir = Path.cwd() / "data" / "quarantine" / "structural"
     partition_dir = preferred_dir / f"year={now.year}" / f"month={now.month:02d}" / f"day={now.day:02d}"
-
+    
     # Let any OS-level errors surface rather than writing into the package
     # directory. This prevents pollution of the `src/` tree.
     partition_dir.mkdir(parents=True, exist_ok=True)

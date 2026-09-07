@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-08-24T20:22:27.030542Z",
+  "approved_count": 1,
+  "quarantine_count": 501,
+  "approved_ids_count": 0,
+  "quarantine_ids_count": 500,
+  "statuses": {
+    "422": 500
+  },
+  "errors": {},
+  "matched_approved_count": 0,
+  "matched_quarantine_count": 500,
+  "zero_loss": true,
+  "slo_pass": false
+}

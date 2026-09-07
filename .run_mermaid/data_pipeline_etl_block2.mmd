@@ -1,0 +1,44 @@
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#2E2E2E,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef storage fill:#E67E22,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef logic fill:#9B59B6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef report fill:#27AE60,stroke:#fff,stroke-width:2px,color:#fff;
+
+    Start([Start: CLI Execution]):::startEnd
+    ParseCLI[Parse Time-Window Filters]:::process
+
+    subgraph Storage Layer
+        Telemetry[(logs/telemetry.log)]:::storage
+        Silver[(data/silver_harmonized/)]:::storage
+    end
+
+    ExtractLogs[Extract 403, 429, 422 Drops]:::process
+    ExtractSilver[Parse Nested Data Cubes]:::process
+
+    ParseCLI --> ExtractLogs
+    ParseCLI --> ExtractSilver
+
+    Telemetry -.-> |Filtered by Date| ExtractLogs
+    Silver -.-> |Extracts Dimensions & Facts| ExtractSilver
+
+    subgraph Aggregation Engine
+        Aggregate[Calculate Total Requests]:::logic
+        IdentifyFailures[Isolate Faulty Equipment IDs]:::logic
+
+        ExtractLogs --> Aggregate
+        ExtractSilver --> Aggregate
+        ExtractLogs --> IdentifyFailures
+    end
+
+    Format[Format Markdown & Terminal ASCII Table]:::process
+
+    Aggregate --> Format
+    IdentifyFailures --> Format
+
+    TerminalOut([Output: Terminal Table]):::startEnd
+    FileOut([Output: reports/system_health_kpis.md]):::report
+
+    Format --> TerminalOut
+    Format --> FileOut

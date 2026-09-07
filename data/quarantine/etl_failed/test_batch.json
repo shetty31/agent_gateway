@@ -1,0 +1,24 @@
+[
+  {
+    "agent_key": "SECRET",
+    "equipment_id": "EQ-123",
+    "timestamp": "2026-08-24T19:41:46.730320+00:00",
+    "critical_alert": false,
+    "telemetry": {
+      "temperature_c": 37.0,
+      "bioreactor_rpm": 200,
+      "sensor_status": "OK"
+    }
+  },
+  {
+    "agent_key": "SECRET2",
+    "equipment_id": "EQ-456",
+    "timestamp": "2026-08-24T19:41:46.730413+00:00",
+    "critical_alert": false,
+    "telemetry": {
+      "temperature_c": 38.0,
+      "bioreactor_rpm": 250,
+      "sensor_status": "OK"
+    }
+  }
+]

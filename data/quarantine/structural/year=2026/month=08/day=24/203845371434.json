@@ -1,0 +1,13 @@
+{
+  "equipment_id": "load-test-approved-4",
+  "payload": {
+    "_request_id": "6c48c2b0715440e9943c0d8a02c7a33f",
+    "critical_alert": false,
+    "telemetry": {
+      "bioreactor_rpm": 250,
+      "sensor_status": "OK",
+      "temperature_c": 37.5
+    },
+    "timestamp": "2026-08-24T20:38:45.352720Z"
+  }
+}
