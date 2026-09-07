@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-08-24T19:32:47Z",
+  "scenario": "mixed",
+  "total_requests": 1000,
+  "concurrency": 100,
+  "slo_ms": 50,
+  "run_id": "153247-0468"
+}

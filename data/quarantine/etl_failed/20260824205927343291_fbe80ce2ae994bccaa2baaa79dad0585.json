@@ -1,0 +1,6002 @@
+[
+  {
+    "equipment_id": "load-test-approved-0",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.117287Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-1",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.118310Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-2",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.118863Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-3",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.119311Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-4",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.119704Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-5",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.120064Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-6",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.120721Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-7",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.121139Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-8",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.121489Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-9",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.121859Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-10",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.122238Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-11",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.122600Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-12",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.122955Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-13",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.123304Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-14",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.123569Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-15",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.123797Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-16",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.123969Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-17",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.124139Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-18",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.124301Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-19",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.124457Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-20",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.124607Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-21",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.124855Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-22",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.125145Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-23",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.125440Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-24",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.125717Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-25",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.126004Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-26",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.126279Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-27",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.126563Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-28",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.126854Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-29",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.127265Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-30",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.127718Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-31",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.128106Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-32",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.128297Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-33",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.128462Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-34",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.128636Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-35",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.128899Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-36",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.129240Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-37",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.129551Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-38",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.129909Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-39",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.130342Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-40",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.130701Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-41",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.131077Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-42",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.131422Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-43",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.131740Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-44",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.132123Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-45",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.132500Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-46",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.132856Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-47",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.133190Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-48",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.133525Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-49",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.133902Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-50",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.149286Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-51",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.151517Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-52",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.151935Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-53",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.152492Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-54",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.153107Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-55",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.153522Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-56",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.153885Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-57",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.154251Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-58",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.154440Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-59",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.154611Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-60",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.154767Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-61",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.154983Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-62",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.155138Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-63",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.155380Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-64",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.155525Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-65",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.155892Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-66",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.156253Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-67",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.157133Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-68",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.157489Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-69",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.157834Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-70",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.158183Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-71",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.158508Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-72",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.158827Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-73",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.159145Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-74",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.159459Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-75",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.159805Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-76",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.160148Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-77",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.160501Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-78",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.160887Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-79",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.161251Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-80",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.161612Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-81",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.162346Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-82",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.162731Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-83",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.163125Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-84",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.163617Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-85",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.163991Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-86",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.164342Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-87",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.164674Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-88",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.165033Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-89",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.165366Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-90",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.165741Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-91",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.166067Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-92",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.166389Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-93",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.166873Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-94",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.167221Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-95",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.167559Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-96",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.167887Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-97",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.168216Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-98",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.168565Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-99",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.168776Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-0",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.168985Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-1",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.169561Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-2",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.169914Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-3",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.170710Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-4",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.174293Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-5",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.175738Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-6",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.176203Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-7",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.176563Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-8",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.176937Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-9",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.177443Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-10",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.177780Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-11",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.178127Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-12",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.178467Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-13",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.178669Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-14",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.178820Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-15",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.178963Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-16",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.179120Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-17",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.183534Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-18",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.184031Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-19",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.184547Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-20",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.184719Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-21",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.184883Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-22",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.185039Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-23",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.185205Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-24",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.185906Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-25",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.186254Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-26",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.186594Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-27",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.186928Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-28",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.187106Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-29",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.187261Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-30",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.187406Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-31",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.187549Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-32",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.187893Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-33",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.188309Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-34",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.188665Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-35",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.189001Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-36",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.189323Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-37",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.189673Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-38",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.189996Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-39",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.190336Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-40",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.191237Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-41",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.191402Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-42",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.191557Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-43",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.191715Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-44",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.191857Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-45",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.192146Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-46",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.192471Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-47",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.192641Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-48",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.192802Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-49",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.192949Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-50",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.193090Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-51",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.193643Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-52",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.194288Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-53",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.194586Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-54",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.194898Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-55",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.195237Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-56",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.195552Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-57",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.195841Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-58",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.196171Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-59",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.196548Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-60",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.196734Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-61",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.196897Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-62",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.197047Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-63",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.197202Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-64",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.197469Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-65",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.197759Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-66",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.198049Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-67",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.198663Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-68",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.198981Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-69",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.199681Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-70",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.199974Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-71",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.200264Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-72",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.200554Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-73",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.200835Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-74",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.204329Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-75",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.206676Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-76",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.207056Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-77",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.207436Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-78",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.207813Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-79",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.208127Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-80",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.208653Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-81",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.209132Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-82",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.209422Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-83",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.209718Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-84",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.210010Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-85",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.210299Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-86",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.210578Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-87",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.210840Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-88",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.211109Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-89",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.211368Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-90",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.211866Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-91",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.212158Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-92",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.212485Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-93",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.212804Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-94",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.213152Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-95",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.213502Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-96",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.213727Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-97",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.213897Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-98",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.214228Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-99",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.214402Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-0",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.214710Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-1",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.215009Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-2",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.215824Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-3",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.216158Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-4",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.216468Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-5",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.216761Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-6",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.217059Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-7",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.217371Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-8",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.217645Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-9",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.217930Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-10",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.218203Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-11",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.218420Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-12",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.218564Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-13",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.218717Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-14",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.218858Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-15",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.219021Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-16",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.219328Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-17",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.219625Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-18",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.220070Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-19",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.220576Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-20",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.220900Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-21",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.221233Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-22",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.221419Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-23",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.221974Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-24",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.222311Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-25",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.222613Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-26",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.222901Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-27",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.223203Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-28",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.223485Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-29",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.223789Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-30",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.223990Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-31",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.224530Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-32",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.224832Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-33",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.225169Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-34",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.225459Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-35",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.225748Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-36",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.226071Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-37",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.226348Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-38",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.226637Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-39",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.226940Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-40",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.227751Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-41",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.228071Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-42",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.228371Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-43",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.228675Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-44",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.228964Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-45",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.229251Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-46",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.229541Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-47",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.229879Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-48",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.230236Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-49",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.230411Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-50",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.230598Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-51",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.230785Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-52",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.232489Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-53",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.232910Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-54",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.233334Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-55",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.233616Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-56",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.233922Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-57",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.234217Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-58",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.234497Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-59",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.234772Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-60",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.235050Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-61",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.235336Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-62",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.235606Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-63",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.235883Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-64",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.236178Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-65",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.236456Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-66",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.236736Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-67",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.236875Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-68",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.237017Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-69",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.237596Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-70",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.237914Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-71",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.238219Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-72",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.238499Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-73",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.239106Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-74",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.239412Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-75",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.239916Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-76",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.240240Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-77",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.240567Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-78",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.240902Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-79",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.241239Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-80",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.241557Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-81",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.243694Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-82",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.244072Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-83",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.244489Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-84",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.244924Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-85",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.245266Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-86",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.245602Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-87",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.245950Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-88",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.246320Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-89",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.246692Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-90",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.247212Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-91",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.247611Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-92",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.248112Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-93",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.248460Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-94",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.248810Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-95",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.249162Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-96",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.249500Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-97",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.249810Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-98",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.250283Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-99",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.250639Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-0",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.250969Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-1",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.251321Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-2",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.251965Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-3",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.252309Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-4",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.252930Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-5",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.253327Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-6",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.253745Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-7",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.253935Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-8",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254087Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-9",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254231Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-10",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254401Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-11",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254593Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-12",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254743Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-13",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.254885Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-14",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.255026Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-15",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.255169Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-16",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.255496Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-17",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.256076Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-18",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.256424Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-19",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.256764Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-20",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.257081Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-21",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.257423Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-22",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.257732Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-23",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.258330Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-24",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.258692Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-25",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.259078Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-26",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.259419Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-27",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.259679Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-28",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.259847Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-29",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.260013Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-30",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.260495Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-31",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.260844Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-32",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.261527Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-33",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.261892Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-34",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.262237Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-35",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.262567Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-36",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.262945Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-37",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.263291Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-38",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.263750Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-39",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.264067Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-40",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.264696Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-41",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.264981Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-42",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.265204Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-43",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.265370Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-44",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.265533Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-45",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.265676Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-46",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.265939Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-47",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.266273Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-48",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.266778Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-49",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.267121Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-50",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.267486Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-51",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.267923Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-52",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.268384Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-53",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.268751Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-54",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.269405Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-55",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.269768Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-56",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.270571Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-57",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.270938Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-58",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.271189Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-59",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.271473Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-60",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.271696Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-61",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.272035Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-62",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.272361Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-63",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.272693Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-64",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.273007Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-65",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.273329Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-66",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.273682Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-67",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.274386Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-68",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.274716Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-69",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.275044Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-70",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.275366Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-71",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.275721Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-72",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.276064Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-73",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.276604Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-74",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.277089Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-75",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.277436Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-76",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.277812Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-77",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.278160Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-78",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.278489Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-79",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.278998Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-80",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.279641Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-81",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.280032Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-82",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.280579Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-83",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.280975Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-84",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.281408Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-85",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.281734Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-86",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.282133Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-87",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.282456Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-88",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.282779Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-89",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.283112Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-90",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.288766Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-91",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.289219Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-92",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.289440Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-93",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.289650Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-94",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.289918Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-95",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.290170Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-96",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.290511Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-97",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.290869Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-98",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.291213Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-99",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.291548Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-0",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.291881Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-1",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.292535Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-2",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.292870Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-3",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.293217Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-4",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.293433Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-5",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.293606Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-6",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.294103Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-7",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.294514Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-8",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.294869Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-9",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.295865Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-10",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.296268Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-11",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.296801Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-12",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.297199Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-13",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.297567Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-14",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.297895Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-15",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.298256Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-16",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.298493Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-17",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.298877Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-18",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.299379Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-19",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.299772Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-20",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.300115Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-21",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.300437Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-22",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.300771Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-23",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.301132Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-24",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.301712Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-25",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.302089Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-26",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.302432Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-27",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.302764Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-28",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.303091Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-29",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.303402Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-30",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.303563Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-31",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.304501Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-32",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.304727Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-33",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.304980Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-34",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.305308Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-35",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.305651Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-36",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.306010Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-37",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.306333Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-38",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.306663Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-39",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.306977Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-40",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.307679Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-41",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.308016Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-42",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.308345Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-43",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.308668Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-44",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.308943Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-45",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.309129Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-46",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.309282Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-47",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.309430Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-48",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.309965Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-49",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.310311Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-50",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.310632Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-51",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.310964Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-52",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.311309Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-53",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.311645Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-54",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.312019Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-55",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.312334Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-56",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.312963Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-57",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.313304Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-58",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.313504Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-59",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.313680Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-60",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.314179Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-61",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.314564Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-62",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.314717Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-63",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.314975Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-64",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.315162Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-65",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.315311Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-66",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.315467Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-67",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.316524Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-68",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.316736Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-69",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.317142Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-70",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.317468Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-71",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.317800Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-72",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.318125Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-73",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.319948Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-74",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.320325Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-75",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.320709Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-76",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.321130Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-77",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.321512Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-78",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.321854Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-79",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.322173Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-80",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.322490Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-81",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.323003Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-82",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.323341Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-83",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.324311Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-84",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.324688Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-85",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.325020Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-86",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.325291Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-87",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.325583Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-88",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.325899Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-89",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.326664Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-90",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.328910Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-91",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.329322Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-92",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.329514Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-93",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.329703Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-94",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.330171Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-95",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.330516Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-96",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.330983Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-97",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.331153Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-98",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.331818Z"
+    }
+  },
+  {
+    "equipment_id": "load-test-approved-99",
+    "payload": {
+      "critical_alert": false,
+      "telemetry": {
+        "bioreactor_rpm": 250,
+        "sensor_status": "OK",
+        "temperature_c": 37.5
+      },
+      "timestamp": "2026-08-24T20:59:27.332225Z"
+    }
+  }
+]

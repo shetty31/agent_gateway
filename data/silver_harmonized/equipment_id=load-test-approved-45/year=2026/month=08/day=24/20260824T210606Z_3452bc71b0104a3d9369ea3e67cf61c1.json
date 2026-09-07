@@ -1,0 +1,69 @@
+{
+  "dimensions": {
+    "equipment_id": "load-test-approved-45",
+    "timestamp": "2026-08-24T21:06:06.776733Z",
+    "critical_alert": false
+  },
+  "facts": {
+    "bioreactor_rpm": 250,
+    "sensor_status": "OK",
+    "temperature_c": 37.5
+  },
+  "metadata": {
+    "parser_script_version": "1.0.0",
+    "glossary_version": "1.0.0",
+    "chain_of_custody": {
+      "processing_timestamp": "2026-08-24T21:06:07.510492+00:00",
+      "parser_script_version": "1.0.0",
+      "source_path": "data/approved/year=2026/month=08/day=24/20260824210606901201_6bb9cb44675f407c8e320b448f7221ff.json[245]"
+    },
+    "_glossary": {
+      "version": "1.0.0",
+      "domain": "synthetic_insulin_bi manufacturing",
+      "metrics": {
+        "temperature_c": {
+          "type": "float",
+          "unit": "Celsius",
+          "optimal_range": [
+            36.5,
+            38.5
+          ],
+          "critical_threshold": 39.0,
+          "description": "Biological temperature inside the bioreactor vessel. Exceeding 39.0°C causes irreversible protein denaturing and batch ruin."
+        },
+        "bioreactor_rpm": {
+          "type": "integer",
+          "unit": "RPM",
+          "optimal_range": [
+            150,
+            350
+          ],
+          "critical_threshold_low": 100,
+          "critical_threshold_high": 450,
+          "description": "Mechanical rotation speed of internal impellers providing dissolved oxygen to cellular cultures."
+        },
+        "pressure_psi": {
+          "type": "float",
+          "unit": "PSI",
+          "optimal_range": [
+            5.0,
+            15.0
+          ],
+          "critical_threshold": 2.0,
+          "description": "Vessel positive pressure safeguarding the sterile environment against airborne bio-contamination."
+        },
+        "ph_level": {
+          "type": "float",
+          "unit": "pH",
+          "optimal_range": [
+            6.8,
+            7.4
+          ],
+          "critical_threshold_low": 6.5,
+          "critical_threshold_high": 7.6,
+          "description": "Culture medium acidity/alkalinity balancing cellular metabolism and enzymatic yield."
+        }
+      }
+    }
+  }
+}

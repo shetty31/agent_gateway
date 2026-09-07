@@ -1,0 +1,8 @@
+{
+  "equipment_id": "load-test-approved-1",
+  "payload": {
+    "_request_id": "98d0a9af6ac648d888c2dd1584e88c40",
+    "sensor": "humidity",
+    "value": 36.0
+  }
+}
